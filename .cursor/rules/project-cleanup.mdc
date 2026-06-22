@@ -1,0 +1,10 @@
+---
+description: 项目清理
+alwaysApply: true
+---
+
+# 项目清理
+
+SSOT：`spec/constraints/PROJECT-CLEANUP.md`
+
+清理后须 `npm run audit` + `npm test`（见 `delivery-gates.mdc`）。

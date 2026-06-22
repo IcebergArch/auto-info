@@ -1,0 +1,23 @@
+---
+description: 交付门禁（verify / test / audit / 启动）— SSOT 见 spec/constraints
+alwaysApply: true
+---
+
+# 交付门禁
+
+SSOT：`RUN-VERIFICATION.md` + `FEATURE-TESTING.md` + `DIRECTORY-STRUCTURE.md`
+
+## 代码/规格变更后（必须全部通过）
+
+```bash
+npm test                    # verify + test:features
+npm run restart:clean       # 先停旧实例再启动
+curl -fsS http://127.0.0.1:4173/
+curl -fsS http://127.0.0.1:5174/
+```
+
+- 新 API → 更新 `scripts/verify.mjs`、`scripts/test-features.mjs`
+- 目录变更 → `npm run audit`（verify 已含，单独改目录时也跑）
+- 汇报含「测试验证」：命令结果 + 已测功能点
+
+未完成不得宣称「已完成」。

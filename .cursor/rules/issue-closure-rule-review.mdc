@@ -1,0 +1,14 @@
+---
+description: P0 — 提报问题须复盘根因并修订规则（最高优先级）
+alwaysApply: true
+---
+
+# 问题关闭复盘（P0）
+
+**优先级最高。** SSOT：`spec/constraints/ISSUE-CLOSURE-REVIEW.md`
+
+用户提报每项问题须：根因 → 审规则 → 增量补规则 → 实现 → `npm test` → 汇报含 P0 表 + Rule Delta。
+
+禁止：只改代码、删弱旧约束、批量问题一条笼统根因。
+
+缺陷/环境类：排查前查 `RUN-VERIFICATION.md` 前置项。

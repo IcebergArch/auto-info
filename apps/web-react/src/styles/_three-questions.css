@@ -1,0 +1,371 @@
+/* —— 三问透镜：发生了什么 / 影响是什么 / 能做什么 —— */
+.tq-lens {
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  padding: 14px 16px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--accent) 5%, var(--surface)) 0%,
+      var(--surface) 60%
+    );
+  box-shadow: var(--shadow-soft);
+}
+
+.tq-loading,
+.tq-empty {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.tq-headline {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.tq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .tq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tq-col {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-raised);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 三问各自的语义强调条 */
+.tq-col::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+}
+.tq-col-what::before {
+  background: var(--q-what);
+}
+.tq-col-impact::before {
+  background: var(--q-impact);
+}
+.tq-col-action::before {
+  background: var(--q-action);
+}
+
+.tq-col-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tq-col-index {
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+  color: color-mix(in srgb, var(--ink) 22%, transparent);
+}
+
+.tq-col-titles {
+  min-width: 0;
+}
+
+.tq-col-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.tq-col-sub {
+  margin: 1px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* —— 发生了什么：信号列表 —— */
+.tq-signal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tq-signal {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+
+.tq-signal-rank {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.tq-signal-rank.tone-high {
+  color: var(--negative);
+}
+.tq-signal-rank.tone-watch {
+  color: var(--warn);
+}
+
+.tq-signal-body {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.tq-signal-title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.tq-signal-desc {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tq-signal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.tq-signal-cat {
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+}
+
+.tq-signal-sev {
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+}
+.tq-signal-sev.tone-high {
+  background: color-mix(in srgb, var(--negative) 14%, var(--surface));
+  color: var(--negative);
+}
+.tq-signal-sev.tone-watch {
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+.tq-signal-sev.tone-ambient {
+  background: var(--surface-pill);
+  color: var(--muted);
+}
+
+.tq-signal-link {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: var(--accent);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tq-signal-link:hover {
+  text-decoration: underline;
+}
+
+/* 近似重复折叠标记 */
+.tq-signal-fold {
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* 低密度信号弱化（保留可读，降低视觉权重） */
+.tq-signal.is-low-density {
+  opacity: 0.62;
+}
+.tq-signal.is-low-density:hover {
+  opacity: 1;
+}
+
+/* —— 影响是什么：波段条 + 类别芯片 —— */
+.tq-band-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.tq-band {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr) 28px;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.tq-band-label {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.tq-band-bar {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  overflow: hidden;
+}
+
+.tq-band-bar i {
+  display: block;
+  height: 100%;
+  min-width: 3px;
+  border-radius: var(--radius-pill);
+  transition: width 0.4s ease;
+}
+.tq-band.tone-high .tq-band-bar i {
+  background: var(--negative);
+}
+.tq-band.tone-watch .tq-band-bar i {
+  background: var(--warn);
+}
+.tq-band.tone-ambient .tq-band-bar i {
+  background: color-mix(in srgb, var(--muted) 55%, transparent);
+}
+
+.tq-band-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.tq-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tq-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+  font-size: 11px;
+}
+.tq-chip i {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.tq-regions {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.tq-regions-label {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+/* —— 能做什么：动作列表 —— */
+.tq-action-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.tq-action {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "label arrow"
+    "hint arrow";
+  gap: 2px 8px;
+  align-items: center;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+.tq-action:hover {
+  border-color: color-mix(in srgb, var(--q-action) 45%, var(--line));
+  box-shadow: var(--glow);
+  transform: translateY(-1px);
+}
+
+.tq-action-label {
+  grid-area: label;
+  font-size: 13px;
+  font-weight: 600;
+}
+.tq-action-hint {
+  grid-area: hint;
+  font-size: 11px;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tq-action-arrow {
+  grid-area: arrow;
+  font-size: 16px;
+  color: var(--q-action);
+  font-weight: 700;
+}

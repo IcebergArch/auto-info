@@ -1,0 +1,202 @@
+/* 颜色/质感/字体令牌已迁至 _theme.css（主题真源）。此处仅保留布局相关。 */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /* 背景色与网格叠层由 _theme.css 统一控制（避免 shorthand 覆盖 background-image） */
+  background-color: var(--bg);
+  color: var(--ink);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100dvh;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* 当前页主面板铺满顶栏以下视口 */
+.app-body > .panel {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow: hidden;
+}
+
+.app-body > .panel > h2 {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.workspace-hero {
+  position: relative;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  padding: 16px 18px 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--accent) 7%, var(--surface)) 0%,
+      color-mix(in srgb, var(--accent) 2%, var(--surface)) 42%,
+      var(--surface) 100%
+    );
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.workspace-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: linear-gradient(
+    180deg,
+    var(--accent),
+    color-mix(in srgb, var(--accent) 55%, var(--surface))
+  );
+}
+
+.workspace-hero-copy {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.workspace-hero-eyebrow {
+  width: fit-content;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.workspace-hero h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.workspace-hero p {
+  margin: 0;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.workspace-hero-side {
+  min-width: 0;
+  display: grid;
+  justify-items: end;
+  gap: 10px;
+}
+
+.workspace-focus-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 0;
+}
+
+.workspace-focus-pill {
+  min-width: 92px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-raised);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.workspace-focus-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(16, 24, 40, 0.08);
+}
+
+.workspace-focus-pill dt,
+.workspace-focus-pill dd {
+  margin: 0;
+}
+
+.workspace-focus-pill dt {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.workspace-focus-pill dd {
+  margin-top: 2px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.workspace-focus-pill.tone-accent {
+  border-color: color-mix(in srgb, var(--accent) 24%, var(--line));
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+}
+
+.workspace-focus-pill.tone-accent dd {
+  color: var(--accent);
+}
+
+.workspace-focus-pill.tone-muted dd {
+  color: var(--muted);
+}
+
+.workspace-hero-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.app-body > .panel:not(.quick-access-panel) {
+  overflow-y: auto;
+}
+
+.app-body > .panel.quick-access-panel {
+  overflow: hidden;
+}
+

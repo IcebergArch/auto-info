@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "storage": {
+    "primary": "mysql",
+    "fallback": "json",
+    "mysql": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "auto-info",
+      "user": "root",
+      "password": "",
+      "cliPath": "mysql"
+    }
+  },
+  "graph": {
+    "provider": "neo4j",
+    "neo4j": {
+      "host": "127.0.0.1",
+      "boltPort": 7687,
+      "httpPort": 7474,
+      "database": "neo4j",
+      "user": "neo4j",
+      "password": "",
+      "httpUrl": "http://127.0.0.1:7474"
+    }
+  },
+  "sources": {
+    "googleSearch": {
+      "enabled": false,
+      "endpoint": "https://www.googleapis.com/customsearch/v1",
+      "cx": "",
+      "apiKey": ""
+    },
+    "braveSearch": {
+      "enabled": false,
+      "endpoint": "https://api.search.brave.com/res/v1/web/search",
+      "apiKey": ""
+    },
+    "jinaReader": {
+      "enabled": true,
+      "endpoint": "https://r.jina.ai/",
+      "apiKey": ""
+    },
+    "twitterSearch": {
+      "enabled": false,
+      "endpoint": "https://api.x.com/2/tweets/search/recent",
+      "bearerToken": ""
+    }
+  },
+  "llm": {
+    "provider": "openrouter",
+    "model": "openai/gpt-4.1-mini",
+    "apiKey": ""
+  },
+  "product": {
+    "refreshIntervalHours": 1
+  }
+}

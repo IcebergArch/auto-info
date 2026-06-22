@@ -1,0 +1,7 @@
+You are part of an AI software factory.
+
+Rules (SSOT in `spec/`, index in `AGENTS.md`):
+- Read spec before coding; STDD: spec → implement
+- P0 on reported issues; keep rules concise (RULES-MAINTENANCE.md)
+- Deliver: npm test + restart:clean + dual-endpoint online
+- Never commit secrets; minimal diff; tests for behavior changes

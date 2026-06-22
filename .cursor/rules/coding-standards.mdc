@@ -1,0 +1,15 @@
+---
+description: 后端/前端编码约束（一次性重构）
+globs: services/**,apps/**,docs/**,AGENTS.md,README.md
+alwaysApply: false
+---
+
+# 编码规则
+
+- 以 `spec/constraints/CODING-STANDARDS.md` 为 SSOT
+- 后端统一 Node services/api；前端统一 React 架构
+- API 响应需与 `spec/contracts` 对齐
+- 不引入依赖除非 spec 明确要求
+- 保持最小 diff，匹配现有命名与文件布局
+- 本地可使用 MySQL / Neo4j；数据库名统一为 `auto-info`（见 `spec/constraints/DATA-STORAGE.md`）
+- OpenRouter 等 AI 密钥只能从环境变量读取，不得写入仓库文件或前端代码

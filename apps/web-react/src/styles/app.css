@@ -1,0 +1,16 @@
+/* Auto Info 全局样式入口（模块化拆分）
+ * 拆分原则：按连续行区间字节等价切分，@import 顺序 = 原层叠顺序，行为完全等价。
+ * 子模块：base(令牌/视口链/hero/brand) → nav-controls(topbar/segmented/panel/btn/card)
+ *        → quick-access → reading → layout-grids(home/tech-radar/backfill)
+ *        → report(daily/report 卡片) → report-document(统一报告版式/时间线/event-lines/status/modal)
+ */
+@import "./_theme.css";
+@import "./_base.css";
+@import "./_nav-controls.css";
+@import "./_quick-access.css";
+@import "./_reading.css";
+@import "./_layout-grids.css";
+@import "./_report.css";
+@import "./_report-document.css";
+@import "./_three-questions.css";
+@import "./_topics.css";

@@ -1,0 +1,11 @@
+---
+description: UI 变更须 Design 审查
+globs: apps/web-react/**
+alwaysApply: true
+---
+
+# Design 审查
+
+UI 改动（页面/组件/样式/交互）须审查，依据 `UI-DESIGN.md` + 相关 UC。
+
+结论仅 **`通过`** 或 **`驳回`**。未通过不得交付。

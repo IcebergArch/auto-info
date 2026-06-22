@@ -1,0 +1,18 @@
+{
+  "name": "nexus-auto-info",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:watch": "node --watch-path=./services/api/src server.mjs",
+    "restart:clean": "node scripts/restart-server.mjs",
+    "start:dev": "node scripts/start-dev.mjs",
+    "start:web-react": "npm --prefix apps/web-react run dev",
+    "audit": "node scripts/audit-structure.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test:features": "node scripts/test-features.mjs",
+    "test:unit": "node scripts/test-brand-icons.mjs && node scripts/test-event-display.mjs && node scripts/test-report-title.mjs && node scripts/test-report-range.mjs && node scripts/test-report-event-window.mjs && node scripts/test-timeline-refresh.mjs && node scripts/test-daily-hourly-timeline.mjs && node scripts/test-report-source-status.mjs && node scripts/test-report-timeline.mjs && node scripts/test-tech-radar.mjs && node scripts/test-tech-radar-partition.mjs && node scripts/test-big-tech-focus.mjs && node scripts/test-analysis-window.mjs && node scripts/test-event-lines-cluster.mjs && node scripts/test-event-lines-time-scale.mjs && node scripts/test-match-query.mjs && node scripts/test-impact-label.mjs && node scripts/test-region-map.mjs",
+    "test": "npm run verify && npm run test:unit && npm run test:features"
+  }
+}

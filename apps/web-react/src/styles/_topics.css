@@ -1,0 +1,782 @@
+/* —— 议题工作台 —— */
+.topics-layout {
+  gap: 12px;
+}
+
+.topics-grid {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(190px, 220px) minmax(0, 1fr) minmax(240px, 320px);
+  gap: 14px;
+  align-items: stretch;
+}
+
+@media (max-width: 1100px) {
+  .topics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* —— 情报秘书呈报 —— */
+.briefing {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--line));
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--accent) 8%, var(--surface)) 0%, var(--surface-raised) 70%);
+  box-shadow: var(--glow);
+}
+
+.briefing-fallback {
+  border-style: dashed;
+  border-color: var(--line);
+  background: var(--surface-sunken);
+  box-shadow: none;
+}
+
+.briefing-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.briefing-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.briefing-time {
+  font-size: 10px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.briefing-reason {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.briefing-verdict {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.briefing-trend {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.briefing-label {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface));
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.briefing-block {
+  display: grid;
+  gap: 6px;
+}
+
+.briefing-clusters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.briefing-clusters li {
+  display: grid;
+  gap: 2px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: var(--surface-sunken);
+}
+.briefing-cluster-theme {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.briefing-cluster-gist {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* 关联图：真实 SVG */
+.briefing-graph {
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background:
+    radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--accent) 6%, var(--surface-sunken)) 0%, var(--surface-sunken) 70%);
+}
+.briefing-graph-edge {
+  stroke: color-mix(in srgb, var(--accent) 55%, var(--line));
+  stroke-width: 1.5;
+}
+.briefing-graph-edge-label {
+  fill: var(--muted);
+  font-size: 10px;
+  paint-order: stroke;
+  stroke: var(--surface-sunken);
+  stroke-width: 3px;
+}
+.briefing-graph-node-box {
+  fill: color-mix(in srgb, var(--accent) 16%, var(--surface));
+  stroke: color-mix(in srgb, var(--accent) 50%, var(--line));
+  stroke-width: 1;
+}
+.briefing-graph-node-label {
+  fill: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.briefing-head-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.briefing-gen-btn {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+.briefing-regen {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 11px;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+}
+.briefing-regen:hover {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--line));
+}
+
+.briefing-watch {
+  margin: 0;
+  padding-left: 1.1em;
+  display: grid;
+  gap: 4px;
+}
+.briefing-watch li {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+/* 决策视角：把"看懂"接到"该怎么办" */
+.briefing-decision {
+  display: grid;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--line));
+  background: color-mix(in srgb, var(--accent) 5%, var(--surface-sunken));
+}
+.briefing-decision-title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.briefing-conclusion,
+.ob-conclusion {
+  margin: 0;
+  padding: 8px 11px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--q-action) 14%, var(--surface));
+  border-left: 3px solid var(--q-action);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.briefing-label.tone-foresight {
+  background: color-mix(in srgb, var(--q-what) 16%, var(--surface));
+  color: var(--q-what);
+}
+.briefing-label.tone-entryexit {
+  background: color-mix(in srgb, var(--q-impact) 16%, var(--surface));
+  color: var(--q-impact);
+}
+.briefing-label.tone-cognitive {
+  background: color-mix(in srgb, var(--q-action) 16%, var(--surface));
+  color: var(--q-action);
+}
+
+/* —— 影响指标带：紧凑一行 —— */
+.impact-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-raised);
+}
+
+.impact-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 600;
+}
+.impact-pill b {
+  font-variant-numeric: tabular-nums;
+}
+.impact-pill.tone-high {
+  background: color-mix(in srgb, var(--negative) 16%, var(--surface));
+  color: var(--negative);
+}
+.impact-pill.tone-watch {
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+.impact-pill.tone-ambient {
+  background: var(--surface-pill);
+  color: var(--muted);
+}
+
+.impact-divider {
+  width: 1px;
+  height: 16px;
+  background: var(--line);
+}
+
+.impact-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+  font-size: 11px;
+}
+.impact-cat i {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* —— 信号流主体 —— */
+.signal-flow {
+  display: grid;
+  gap: 14px;
+}
+
+.signal-section {
+  display: grid;
+  gap: 8px;
+}
+
+.signal-section-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--line);
+}
+
+.signal-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+/* 信号流内的紧凑信号行：标题最多2行、摘要1行，提升密度 */
+.signal-rows .tq-signal {
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-raised);
+  align-items: center;
+}
+/* 脉络行：首列放日期，需更宽 */
+.tq-timeline .tq-signal {
+  grid-template-columns: 68px minmax(0, 1fr);
+}
+.signal-rows .tq-signal-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.signal-rows .tq-signal-desc {
+  -webkit-line-clamp: 1;
+}
+
+/* 知识栏头 */
+.knowledge-head {
+  display: grid;
+  gap: 2px;
+}
+.knowledge-head-hint {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* 左：议题导航 */
+.topics-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-sunken);
+  overflow-y: auto;
+}
+
+.topics-create {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+}
+
+.topics-create-note {
+  margin: 0;
+  padding: 6px 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--muted);
+  background: var(--surface-pill);
+  border-radius: 8px;
+}
+
+.topics-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.topic-item {
+  width: 100%;
+  display: grid;
+  gap: 5px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-raised);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.topic-item:hover {
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--line));
+}
+
+.topic-item.is-active {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface-raised));
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.topic-item.is-archived {
+  opacity: 0.6;
+}
+
+.topic-item-title {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.topic-item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.topic-chip {
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.topic-chip.accent {
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface));
+  color: var(--accent);
+}
+
+.topics-archived {
+  margin-top: 4px;
+}
+
+.topics-archived summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 0;
+}
+
+/* 中：工作区 */
+.topics-workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.topic-head {
+  display: grid;
+  gap: 3px;
+}
+
+.topic-head-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.topic-head-meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.topic-note-form {
+  display: grid;
+  gap: 8px;
+}
+
+.topic-note-kinds {
+  display: flex;
+  gap: 6px;
+}
+
+.topic-note-kind {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.topic-note-kind.is-active {
+  border-color: var(--q-action);
+  background: color-mix(in srgb, var(--q-action) 12%, var(--surface));
+  color: var(--q-action);
+}
+
+.topic-note-input {
+  resize: vertical;
+}
+
+/* 右：认知栏 */
+.topics-knowledge {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-sunken);
+  overflow-y: auto;
+}
+
+.knowledge-group {
+  display: grid;
+  gap: 6px;
+}
+
+.knowledge-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.knowledge-group-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.knowledge-group-count {
+  font-size: 11px;
+  color: var(--muted);
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+}
+
+.knowledge-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.knowledge-note {
+  position: relative;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-raised);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.knowledge-note-time {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.knowledge-empty {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* —— 议题信号双轴：近期区 + 脉络区 —— */
+.tq-dual {
+  display: grid;
+  gap: 14px;
+}
+
+.tq-axis {
+  display: grid;
+  gap: 8px;
+}
+
+.tq-axis-label {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+/* 脉络区：左侧竖线连缀，体现时间演进 */
+.tq-timeline {
+  position: relative;
+  padding-left: 4px;
+}
+
+.tq-signal-date {
+  flex-shrink: 0;
+  min-width: 64px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+
+.tq-signal-unverified {
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-pill);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* —— 白泽分析：对象画像 —— */
+.object-briefing {
+  display: grid;
+  gap: 12px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--accent) 6%, var(--surface)) 0%, var(--surface-raised) 60%);
+  box-shadow: var(--shadow-soft);
+}
+
+.object-briefing-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.object-briefing-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.object-briefing-persona {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+  white-space: nowrap;
+}
+
+/* 白泽分析三维：分析 / 逻辑 / 操作 */
+.ob-dim {
+  position: relative;
+  display: grid;
+  gap: 8px;
+  padding: 10px 12px 10px 14px;
+  border-radius: 10px;
+  background: var(--surface-sunken);
+}
+.ob-dim::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+}
+.ob-dim-analysis::before { background: var(--q-what); }
+.ob-dim-logic::before { background: var(--q-impact); }
+.ob-dim-action::before { background: var(--q-action); }
+
+.ob-dim-title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+.ob-dim-analysis .ob-dim-title { color: var(--q-what); }
+.ob-dim-logic .ob-dim-title { color: var(--q-impact); }
+.ob-dim-action .ob-dim-title { color: var(--q-action); }
+
+.object-briefing-disclaimer {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+  font-style: italic;
+  padding-top: 4px;
+  border-top: 1px dashed var(--line);
+}
+
+.object-briefing-what {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.object-briefing-block {
+  display: grid;
+  gap: 5px;
+}
+
+.object-briefing-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.object-briefing-block ul {
+  margin: 0;
+  padding-left: 1.1em;
+  display: grid;
+  gap: 4px;
+}
+
+.object-briefing-block li {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.object-briefing-fallback {
+  padding: 10px 12px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  background: var(--surface-sunken);
+}
+
+/* 白泽分析事件列表 */
+.analysis-event-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.analysis-event-item {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-raised);
+}
+
+.analysis-event-title {
+  margin: 0 0 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.analysis-event-summary {
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.analysis-event-meta {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}

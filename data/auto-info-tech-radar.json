@@ -1,0 +1,488 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-17T06:30:04.926Z",
+  "entries": [
+    {
+      "id": "tech-google-gemini-blog-2026-06-04",
+      "term": "Google Gemini",
+      "title": "Google AI：Gemini 平台与模型更新",
+      "brief": "Google 官方 AI 博客与开发者文档继续更新 Gemini 平台能力，影响多模态应用、API 迁移与企业集成节奏。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-06-15T09:00:00.000Z",
+      "tags": [
+        "大厂",
+        "Google",
+        "博客"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "Google AI Blog",
+          "url": "https://blog.google/technology/ai/",
+          "provider": "blog"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "平台",
+          "body": "Google Gemini 平台能力更新需关注多模态 API、开发者迁移与企业集成节奏。",
+          "sourceUrl": "https://blog.google/technology/ai/",
+          "sourceTitle": "Google AI Blog"
+        }
+      ]
+    },
+    {
+      "id": "tech-openai-research-2026-06-04",
+      "term": "OpenAI Research",
+      "title": "OpenAI：研究与产品发布跟踪",
+      "brief": "OpenAI 研究页与产品博客持续发布模型、API 与安全评测信息，影响企业智能体部署与开发者工具链选择。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-06-15T08:30:00.000Z",
+      "tags": [
+        "大厂",
+        "OpenAI",
+        "论文"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "OpenAI Research",
+          "url": "https://openai.com/research/",
+          "provider": "paper"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "研究",
+          "body": "OpenAI 研究与产品发布继续影响企业智能体部署、API 选型与安全评测关注点。",
+          "sourceUrl": "https://openai.com/research/",
+          "sourceTitle": "OpenAI Research"
+        }
+      ]
+    },
+    {
+      "id": "tech-google-gemini-blog-2026-05-30",
+      "term": "Google Gemini",
+      "title": "Google AI：Gemini 模型与产品更新",
+      "brief": "Google 官方博客与开发者文档中的 Gemini 多模态与 API 变更，属核心平台工程向更新。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-05-30T10:00:00.000Z",
+      "tags": [
+        "大厂",
+        "Google",
+        "博客"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "Google AI Blog",
+          "url": "https://blog.google/technology/ai/",
+          "provider": "blog"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "博客",
+          "body": "Google AI：Gemini 模型与产品更新 — 关注官方博客与开发者发布说明。",
+          "sourceUrl": "https://blog.google/technology/ai/",
+          "sourceTitle": "Google AI Blog"
+        }
+      ]
+    },
+    {
+      "id": "tech-anthropic-claude-2026-05-29",
+      "term": "Anthropic Claude",
+      "title": "Anthropic：Claude 能力与安全说明",
+      "brief": "Anthropic 新闻站与工程文介绍 Claude 版本、工具使用与安全部署实践。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-05-29T09:30:00.000Z",
+      "tags": [
+        "大厂",
+        "Anthropic",
+        "博客"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "Anthropic News",
+          "url": "https://www.anthropic.com/news",
+          "provider": "blog"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "博客",
+          "body": "Anthropic：Claude 能力与安全说明 — 优先跟踪官方新闻与产品文档。",
+          "sourceUrl": "https://www.anthropic.com/news",
+          "sourceTitle": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "id": "tech-openai-research-2026-05-28",
+      "term": "OpenAI",
+      "title": "OpenAI：研究与产品发布",
+      "brief": "OpenAI 官网研究页与博客中的模型、API 与评测论文摘要。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-05-28T08:00:00.000Z",
+      "tags": [
+        "大厂",
+        "OpenAI",
+        "论文"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "OpenAI Research",
+          "url": "https://openai.com/research",
+          "provider": "paper"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "论文",
+          "body": "OpenAI：研究与产品发布 — 含研究索引与系统卡等可溯源材料。",
+          "sourceUrl": "https://openai.com/research",
+          "sourceTitle": "OpenAI Research"
+        }
+      ]
+    },
+    {
+      "id": "tech-x-platform-2026-05-27",
+      "term": "X / xAI",
+      "title": "X：平台与 xAI 工程动态",
+      "brief": "X 官方工程博客与 xAI 发布，关注推荐、推理基础设施与大模型服务。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-05-27T07:00:00.000Z",
+      "tags": [
+        "大厂",
+        "X",
+        "博客"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "X Engineering Blog",
+          "url": "https://blog.x.com/",
+          "provider": "blog"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "博客",
+          "body": "X：平台与 xAI 工程动态 — 跟踪官方工程博客与产品公告。",
+          "sourceUrl": "https://blog.x.com/",
+          "sourceTitle": "X Engineering Blog"
+        }
+      ]
+    },
+    {
+      "id": "tech-cursor-loop-2026-06-01",
+      "term": "cursor loop",
+      "title": "cursor: loop 功能",
+      "brief": "Agent 定时唤醒与自调度：支持固定周期与动态心跳，用于持续验收本地任务与回归测试。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-06-15T14:00:00.000Z",
+      "tags": [
+        "Agent",
+        "Cursor",
+        "自动化"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "Cursor Loop skill 说明",
+          "url": "https://cursor.com/docs",
+          "provider": "docs"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "来源",
+          "body": "Agent 定时唤醒与自调度：支持固定周期与动态心跳，用于持续验收本地任务与回归测试。",
+          "sourceUrl": "https://cursor.com/docs",
+          "sourceTitle": "Cursor Loop skill 说明"
+        }
+      ]
+    },
+    {
+      "id": "tech-harness-2026-06-01",
+      "term": "harness",
+      "title": "harness 工程",
+      "brief": "Harness 工程指为 AI Agent 提供可观测、可回滚的执行环境与工具链；近期 GitHub 热榜与社区讨论激增，强调自治分工与任务编排。",
+      "status": "open",
+      "granularity": "day",
+      "occurredAt": "2026-06-15T11:30:00.000Z",
+      "tags": [
+        "Agent",
+        "工程",
+        "GitHub"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "GitHub Trending — agent harness",
+          "url": "https://github.com/trending",
+          "provider": "github"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "来源",
+          "body": "Harness 工程指为 AI Agent 提供可观测、可回滚的执行环境与工具链；近期 GitHub 热榜与社区讨论激增，强调自治分工与任务编排。",
+          "sourceUrl": "https://github.com/trending",
+          "sourceTitle": "GitHub Trending — agent harness"
+        }
+      ]
+    },
+    {
+      "id": "tech-month-2026-05",
+      "term": "2026-05",
+      "title": "工程共识、LLM 能力提升、影视片领域新模型、现象级产品",
+      "brief": "五月 AI 工程与产品格局综述：编排框架趋同、多模态与视频生成模型密集发布。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2026-05-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "LLM",
+        "产品",
+        "日报充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [
+        {
+          "title": "Colorado lawmakers introduce new AI rules - Axios",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS2QwOEFYdnRWWVRYQ09lbVgtYjI3NGk2UWZabmxpWXllVDVUcFBFRC1ZbXdFRGY0MG1ZalRkUjA2NkktYUlLZkdtUVNxRTdvVGJ2V3JZcmtTdmdVeERTc0p2U2xQZVpZZDc5aGd4VGVFWklXV0Jsc3cyakMxQmpYaTVPWUd2WktWTzRraUJwSjlOZ1hNWUVGWThn?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "Exclusive: ByteDance developing custom CPU chips to support AI rollout, sources say - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTGJ6YVhfWFp5MUs5QXh5WE9MRnJlVTJORzUzanhPZGdkaWZ4Q2hyVnRGR3lvNFJ6M0xnNmp4aUR2N2x5UFRVaTQtXzVOZFlra3duR2tsYWlteE4zNk56Y0ZoRFdEOEJOc1JrNWl5clJYeWRYeF92UnlRcUdPNUxaSjRDRWFWekdGU284Rlo4aVZNc0VVcmNESUFyR3FScUp3OWtpcVhBd0NkOFZMSE5tYTdmTFRIN00?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "NSA Releases Security Design Considerations for AI-Driven Automation Leveraging the Model Context Protocol - National Security Agency (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYjF3OE1ZZ2F5UThUSjBZcEJsa2xTWnhCZFZvNEM0UjdJWWVwelFTVGtKY1FYOVpiX0JnWFdJQlBhZlpUemI1RWZBc0FoMDJMLVR4SzBybkJvZldrSk1NYk1paThaXzBGdmpGSWZSeloyR0VMekR4WEprVXhvckZfMl9HTEp4R2FNcDlzQUc5bk9mdnhWZGJObXY5REVzbHVkUUZ5X1Y5aWl5cWQ2ZG4zX2hhOGYwai03dzM1VVpQWEZveW0yUExnSFk3TkJEYlZoaTE3cFFDZ3pVUTdyWWtYVUJ6X1RDa01ZMEJRaTF4UjRRN3piSGVPdm1oMElONGNUaXc?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "DoD strikes deals with major tech firms to deploy AI on classified networks - Federal News Network",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMVdVNjBvWDltSVdBa3EyMkdpZkVZclliWXlFR0ppQkZvc1FibUExUC1wem5DQkkwbGZrcGVKMHZNbDkyVUNkRzRYM0FNWkZoVTJXN0F2cXpRczlXQmhKNzRhY0RQWTh2Y21rdmlOT2dpdTNqc3ctU0RhaU5BWG8yMnJuMjJCSHdHZGhYemRhU0NyRF91R1BxeW5LNHdOSU4yWEdLM3BsNzFhNUhRbXFmVmd0b0xCNjh1MVFyZnBwQ1JEdDk3akRj?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "Introducing Claude Opus 4.8 - Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence - OpenAI",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QnZPQkxzLW9WdHJLbUplMUo3dHgyY0JSNmJfdkRzdXlaU2ZUdGw2VEFyM3NXQ1VNYTBqR3Jnem5DQk9MV3NQZm5MM3NtbVo3d19xNlhsWnNkMFFaTGhkZDVrZmJOZTVObzBKOGZQbmd4Zw?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "Samsung Electronics, SK Hynix Growth Potential Seen Despite Rapid Rise - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaEI0YjhLa291Q0dMNzZORk0yY05BVnJsd05XXzhJQ0pzaGgxd2cwYjNuOWh3TkE2MkkyOUl4Qk84alRlRFY0ckF4Y2dSWDUzdDFuanJ3QmdEa1lhTHNFSEZGajJsVDRUWFJWNW1lOGJjZWFnOHZuWDlpcWs2Ui04ZGhoNTZBeXM?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "Report on Education International’s Global Conference on Artificial Intelligence - Education International",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT0JfRERzbXdaTUV3b1BZblF2cGZFbDM2TW5hcGVVYVJVVEhJcUlVeHpLM0Uxd3dkWTJMN09HaFpiaEJmVHJ5N2o1eS01cy00c3pUX1pHTlpReExwN1hYcUhEVkZhTVZqT0hHaFQwT3I3WjBRQ21uZGs0Zm41SjJzcUFwMnhUOF9zVDdBcXNqeGlPNFdJak5LNmxSVWliME5nWUVZbm95bE90a1pBZTkwVUJ3Rk1UZw?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "AI was used to recreate deadly plane crash audio, prompting regulators to step in - Mashable",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jQlBtVU4xWnNRcEhrM3BDVUZhUjJ3Tzd5SzJoRkNlSTNIODk3VHNBY2dUMEFKUFpyNldibTNueUhSYjh3NFh1ajVRZ2JsQVJQdXZzcU1OMFFZUmhkOVNTUTE4VlZFemttSHJuU0N4TFU?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "Fujitsu signs strategic partnership with Anthropic - Fujitsu Global",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oRGRzeFZPZTM0MktOQnBTNG5CS0ZpSW91U0RSOW1YSU8yRG01NW1NS3RBUVktbDJSX2V6bVRlRU5LOGVGaF9neGhfLU5EajdiUjVCZ2x2eWwxNTVhRFJnN3FneFI?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "AI Hiring Tools Can Yield Racial Bias and Systemic Rejection - Stanford HAI",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN1ZHcElCSTVSUEp2WlRUdjdGQTVhZE96YU9rYUFBMHRqTF9FQmV2anh1RS1uZ1FfaHNaT3JSYWxqRFZ3ZDVWX3JQMld2QWxmWjZrb3ZETWY0NWg0LWlPelFNb2ptV1NJT0hMcC02MnQ3R0hhc2lvbnVYdmRJNUhPcVdTWllya1FDcFktQXh6ZVQyMzJ4?oc=5",
+          "provider": "googleNews"
+        },
+        {
+          "title": "How we contain Claude across products - Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16Q1A1LU9QUFNJNWgxdkI4ei1iaHEwN2gzTjNmT2s2MV9icExhR3hYWHRMWWFUVUpJUTBhcl9HV3doZnRlcVVZd0ZWV0NlWDVNcTRLeDNJMlpWRFhDd3BWcUpyektXUC10V29N?oc=5",
+          "provider": "googleNews"
+        }
+      ],
+      "detailBlocks": [
+        {
+          "label": "平台",
+          "body": "Introducing、Claude、Opus：Introducing、Claude、Opus，发布或部署。",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+          "sourceTitle": "Introducing Claude Opus 4.8 - Anthropic"
+        },
+        {
+          "label": "LLM",
+          "body": "OpenAI、Deployment、Company：OpenAI、Deployment、Company，发布或部署。",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QnZPQkxzLW9WdHJLbUplMUo3dHgyY0JSNmJfdkRzdXlaU2ZUdGw2VEFyM3NXQ1VNYTBqR3Jnem5DQk9MV3NQZm5MM3NtbVo3d19xNlhsWnNkMFFaTGhkZDVrZmJOZTVObzBKOGZQbmd4Zw?oc=5",
+          "sourceTitle": "OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence - OpenAI"
+        }
+      ],
+      "relatedReportDates": [
+        "2026-05-31",
+        "2026-05-30",
+        "2026-05-27",
+        "2026-05-29",
+        "2026-05-28",
+        "2026-05-26",
+        "2026-05-25",
+        "2026-05-24"
+      ]
+    },
+    {
+      "id": "tech-month-2025-12",
+      "term": "2025-12",
+      "title": "2025年12月科技月报",
+      "brief": "请先在首页回溯 2025-12 月日报，再点击「充实往期月报」写入科技栏来源。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2025-12-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "待充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [],
+      "detailBlocks": [
+        {
+          "label": "说明",
+          "body": "未找到 2025-12 月已归档日报中的「科技」条目。请先在首页执行「2025-12」月份或「2025-12 至今」日报回溯，再点击「充实往期月报」。"
+        }
+      ],
+      "relatedReportDates": []
+    },
+    {
+      "id": "tech-month-2026-01",
+      "term": "2026-01",
+      "title": "2026年01月科技月报",
+      "brief": "请先在首页回溯 2026-01 月日报，再点击「充实往期月报」写入科技栏来源。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2026-01-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "待充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [],
+      "detailBlocks": [
+        {
+          "label": "说明",
+          "body": "未找到 2026-01 月已归档日报中的「科技」条目。请先在首页执行「2026-01」月份或「2025-12 至今」日报回溯，再点击「充实往期月报」。"
+        }
+      ],
+      "relatedReportDates": []
+    },
+    {
+      "id": "tech-month-2026-02",
+      "term": "2026-02",
+      "title": "2026年02月 AI 概念与工程热词综述",
+      "brief": "科技：AI 芯片出口限制出现新一轮政策讨论。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2026-02-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "日报充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [],
+      "detailBlocks": [
+        {
+          "label": "LLM",
+          "body": "AI 芯片出口限制出现新一轮政策讨论：先进算力、云服务管制和区域供应链被同时纳入观察。",
+          "sourceTitle": "AI 芯片出口限制出现新一轮政策讨论"
+        }
+      ],
+      "relatedReportDates": [
+        "2026-02-28",
+        "2026-02-27",
+        "2026-02-26",
+        "2026-02-25",
+        "2026-02-24",
+        "2026-02-23",
+        "2026-02-22",
+        "2026-02-21"
+      ]
+    },
+    {
+      "id": "tech-month-2026-03",
+      "term": "2026-03",
+      "title": "2026年03月 AI 概念与工程热词综述",
+      "brief": "科技：AI 芯片出口限制出现新一轮政策讨论。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2026-03-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "日报充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [],
+      "detailBlocks": [
+        {
+          "label": "LLM",
+          "body": "AI 芯片出口限制出现新一轮政策讨论：先进算力、云服务管制和区域供应链被同时纳入观察。",
+          "sourceTitle": "AI 芯片出口限制出现新一轮政策讨论"
+        }
+      ],
+      "relatedReportDates": [
+        "2026-03-31",
+        "2026-03-30",
+        "2026-03-29",
+        "2026-03-28",
+        "2026-03-27",
+        "2026-03-26",
+        "2026-03-25",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": "tech-month-2026-04",
+      "term": "2026-04",
+      "title": "2026年04月 AI 概念与工程热词综述",
+      "brief": "科技：AI 芯片出口限制出现新一轮政策讨论。",
+      "status": "archived",
+      "granularity": "month",
+      "occurredAt": "2026-04-01T00:00:00.000Z",
+      "tags": [
+        "月报",
+        "日报充实"
+      ],
+      "briefingSessionId": null,
+      "sources": [],
+      "detailBlocks": [
+        {
+          "label": "LLM",
+          "body": "AI 芯片出口限制出现新一轮政策讨论：先进算力、云服务管制和区域供应链被同时纳入观察。",
+          "sourceTitle": "AI 芯片出口限制出现新一轮政策讨论"
+        }
+      ],
+      "relatedReportDates": [
+        "2026-04-30",
+        "2026-04-29",
+        "2026-04-28",
+        "2026-04-27",
+        "2026-04-26",
+        "2026-04-25",
+        "2026-04-24",
+        "2026-04-23"
+      ]
+    }
+  ]
+}

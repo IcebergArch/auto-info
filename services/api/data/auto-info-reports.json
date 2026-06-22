@@ -1,0 +1,744 @@
+{
+  "version": 1,
+  "reports": [
+    {
+      "id": "report-2026-06-18",
+      "date": "2026-06-18",
+      "storedAt": "2026-06-18T03:51:51.317Z",
+      "reason": "events_upsert",
+      "report": {
+        "date": "2026-06-18",
+        "title": "今日日报",
+        "reportMode": "v2",
+        "generatedAt": "2026-06-18T03:51:51.314Z",
+        "eventWindow": {
+          "from": "2026-06-18",
+          "to": "2026-06-18"
+        },
+        "focusCategories": [
+          "金融"
+        ],
+        "focusSections": {
+          "international": {
+            "key": "international",
+            "title": "国际局势",
+            "description": "",
+            "summary": "国际局势：暂无突出新增",
+            "events": []
+          },
+          "technology": {
+            "key": "technology",
+            "title": "科技",
+            "description": "",
+            "summary": "科技：暂无突出新增",
+            "events": []
+          },
+          "finance": {
+            "key": "finance",
+            "title": "金融",
+            "description": "",
+            "summary": "金融：暂无突出新增",
+            "events": []
+          },
+          "domestic": {
+            "key": "domestic",
+            "title": "国内",
+            "description": "医疗、旅行、民生、媒体热点与中国本土关注",
+            "summary": "国内：暂无国内向新增",
+            "events": []
+          },
+          "other": {
+            "key": "other",
+            "title": "其他",
+            "description": "",
+            "summary": "其他：暂无突出新增",
+            "events": [
+              {
+                "id": "a股",
+                "rank": 1,
+                "category": "未分类",
+                "region": "全球",
+                "time": "2026-06-18 03:51",
+                "title": "A股",
+                "summary": "核心议题动态。",
+                "tags": [
+                  "观察",
+                  "未核实"
+                ],
+                "severity": 68,
+                "special": false,
+                "occurredAt": "2026-06-18T03:51:51.306Z",
+                "timeline": [
+                  [
+                    "今日",
+                    "用户输入主题「A股」，系统按未分类类目入库并纳入观察列表。"
+                  ]
+                ],
+                "impacts": [],
+                "references": [],
+                "displayTitle": "核心议题动态",
+                "desc": "核心议题动态。",
+                "impact": ""
+              }
+            ]
+          }
+        },
+        "overview": {
+          "summary": "2026-06-18 · 1 条事件。2026-06-18 日报纳入 1 条事件，重大 0 条。",
+          "bullets": [
+            "国际局势：暂无突出新增",
+            "科技：暂无突出新增",
+            "金融：暂无显著变化"
+          ],
+          "directions": {
+            "international": "国际局势：暂无突出新增",
+            "technology": "科技：暂无突出新增",
+            "finance": "金融：暂无突出新增",
+            "domestic": "国内：暂无国内向新增"
+          },
+          "panels": {
+            "international": {
+              "title": "国际局势",
+              "points": [
+                "暂无突出新增"
+              ]
+            },
+            "technology": {
+              "title": "科技",
+              "points": [
+                "暂无突出新增"
+              ]
+            },
+            "finance": {
+              "title": "金融",
+              "points": [
+                "暂无显著变化"
+              ]
+            }
+          }
+        },
+        "events": [
+          {
+            "id": "a股",
+            "rank": 1,
+            "category": "未分类",
+            "region": "全球",
+            "time": "2026-06-18 03:51",
+            "title": "A股",
+            "summary": "核心议题动态。",
+            "tags": [
+              "观察",
+              "未核实"
+            ],
+            "severity": 68,
+            "special": false,
+            "occurredAt": "2026-06-18T03:51:51.306Z",
+            "timeline": [
+              [
+                "今日",
+                "用户输入主题「A股」，系统按未分类类目入库并纳入观察列表。"
+              ]
+            ],
+            "impacts": [],
+            "references": [],
+            "displayTitle": "核心议题动态",
+            "desc": "核心议题动态。",
+            "impact": ""
+          }
+        ],
+        "sections": [
+          {
+            "key": "politics",
+            "title": "政治",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          },
+          {
+            "key": "finance",
+            "title": "金融",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          },
+          {
+            "key": "technology",
+            "title": "科技",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          },
+          {
+            "key": "other",
+            "title": "其他",
+            "events": [
+              {
+                "id": "a股",
+                "rank": 1,
+                "category": "未分类",
+                "region": "全球",
+                "time": "2026-06-18 03:51",
+                "title": "A股",
+                "summary": "核心议题动态。",
+                "tags": [
+                  "观察",
+                  "未核实"
+                ],
+                "severity": 68,
+                "special": false,
+                "occurredAt": "2026-06-18T03:51:51.306Z",
+                "timeline": [
+                  [
+                    "今日",
+                    "用户输入主题「A股」，系统按未分类类目入库并纳入观察列表。"
+                  ]
+                ],
+                "impacts": [],
+                "references": [],
+                "displayTitle": "核心议题动态",
+                "desc": "核心议题动态。",
+                "impact": ""
+              }
+            ],
+            "subsections": [
+              {
+                "title": "未分类",
+                "events": [
+                  {
+                    "id": "a股",
+                    "rank": 1,
+                    "category": "未分类",
+                    "region": "全球",
+                    "time": "2026-06-18 03:51",
+                    "title": "A股",
+                    "summary": "核心议题动态。",
+                    "tags": [
+                      "观察",
+                      "未核实"
+                    ],
+                    "severity": 68,
+                    "special": false,
+                    "occurredAt": "2026-06-18T03:51:51.306Z",
+                    "timeline": [
+                      [
+                        "今日",
+                        "用户输入主题「A股」，系统按未分类类目入库并纳入观察列表。"
+                      ]
+                    ],
+                    "impacts": [],
+                    "references": [],
+                    "displayTitle": "核心议题动态",
+                    "desc": "核心议题动态。",
+                    "impact": ""
+                  }
+                ]
+              }
+            ],
+            "count": 1
+          }
+        ],
+        "references": [
+          {
+            "id": "ref-a股",
+            "eventId": "a股",
+            "title": "A股",
+            "source": "本地事件库",
+            "url": "",
+            "provider": "local",
+            "category": "未分类",
+            "occurredAt": "2026-06-18T03:51:51.306Z",
+            "accessedAt": "2026-06-18T03:51:51.316Z"
+          }
+        ],
+        "status": {
+          "kind": "ready",
+          "message": "已生成 1 条当日事件。",
+          "sourceAttempted": false,
+          "sourceArticleCount": 0,
+          "ingestedEventCount": 1,
+          "providerStatuses": []
+        },
+        "reportLayouts": {
+          "v1": {
+            "title": "管理速读版",
+            "highlights": [
+              "核心议题动态"
+            ],
+            "riskNotes": [
+              "暂无高风险事件升级"
+            ]
+          },
+          "v2": {
+            "title": "研究分析版",
+            "threads": [
+              "国际局势：暂无突出新增",
+              "科技：暂无突出新增",
+              "金融：暂无显著变化"
+            ],
+            "focus": [
+              "其他"
+            ]
+          },
+          "v3": {
+            "title": "行动决策版",
+            "priorities": [
+              "核心议题动态"
+            ],
+            "nextActions": [
+              "跟踪宏观事件后续 24h 进展",
+              "复核关注方向是否需要新增",
+              "对高风险事件补充二级证据源"
+            ]
+          }
+        },
+        "review": {
+          "status": "reviewed",
+          "count": 1,
+          "reviewer": "local-rule-review",
+          "reviewedAt": "2026-06-18T03:51:51.316Z",
+          "checks": [
+            "日期范围",
+            "事件完整度",
+            "参考存在性",
+            "结构完整性",
+            "主类目归并",
+            "日报四块结构"
+          ],
+          "findings": [
+            {
+              "check": "日期范围",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "事件完整度",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "参考存在性",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "结构完整性",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "主类目归并",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "日报四块结构",
+              "ok": true,
+              "note": "通过"
+            }
+          ],
+          "note": "本次 review 基于本地事件库的日期、字段、参考与结构完整性检查；外部真实性仍需接入权威来源后继续增强。"
+        },
+        "presentation": "timeline",
+        "refreshIntervalHours": 1,
+        "nextRefreshAt": "2026-06-18T04:51:51.317Z",
+        "lastRefreshedAt": "2026-06-18T03:51:51.314Z",
+        "timeline": [
+          {
+            "id": "timeline-refresh-cutoff-2026-06-18",
+            "at": "2026-06-18T03:51:51.314Z",
+            "time": "2026-06-18 11:51",
+            "isRefreshCutoff": true,
+            "title": "上次更新",
+            "displayTitle": "上次更新",
+            "desc": "本次刷新周期内（00:00 — 11:51）暂无新增事件。",
+            "lane": "system",
+            "laneTitle": "刷新"
+          }
+        ],
+        "timelineHours": [],
+        "timelineByLane": {
+          "international": [],
+          "technology": [],
+          "finance": [],
+          "domestic": [],
+          "other": []
+        },
+        "relatedMaterials": [
+          {
+            "id": "ref-a股",
+            "eventId": "a股",
+            "title": "A股",
+            "url": "",
+            "source": "本地事件库",
+            "provider": "local",
+            "occurredAt": "2026-06-18T03:51:51.306Z"
+          },
+          {
+            "id": "mat-a股",
+            "eventId": "a股",
+            "title": "核心议题动态",
+            "url": "",
+            "source": "未分类",
+            "provider": "event",
+            "occurredAt": "2026-06-18T03:51:51.306Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "report-2026-06-17",
+      "date": "2026-06-17",
+      "storedAt": "2026-06-17T09:29:04.189Z",
+      "reason": "events_upsert",
+      "report": {
+        "date": "2026-06-17",
+        "title": "今日日报",
+        "reportMode": "v2",
+        "generatedAt": "2026-06-17T09:29:04.185Z",
+        "eventWindow": {
+          "from": "2026-06-17",
+          "to": "2026-06-17"
+        },
+        "focusCategories": [
+          "国际局势",
+          "中国政策",
+          "AI",
+          "音视频"
+        ],
+        "focusSections": {
+          "international": {
+            "key": "international",
+            "title": "国际局势",
+            "description": "",
+            "summary": "国际局势：暂无突出新增",
+            "events": []
+          },
+          "technology": {
+            "key": "technology",
+            "title": "科技",
+            "description": "",
+            "summary": "科技：人工智能与算力动态。",
+            "events": [
+              {
+                "id": "求职-ai",
+                "rank": 1,
+                "category": "科技",
+                "region": "全球",
+                "time": "2026-06-17 09:29",
+                "title": "求职 AI",
+                "summary": "人工智能与算力动态。",
+                "tags": [
+                  "科技",
+                  "供应链"
+                ],
+                "severity": 68,
+                "special": false,
+                "occurredAt": "2026-06-17T09:29:04.177Z",
+                "timeline": [
+                  [
+                    "今日",
+                    "用户输入主题「求职 AI」，系统按科技类目入库并纳入观察列表。"
+                  ]
+                ],
+                "impacts": [],
+                "references": [],
+                "displayTitle": "人工智能与算力动态",
+                "desc": "人工智能与算力动态。",
+                "impact": "人工智能与算力动态。"
+              }
+            ]
+          },
+          "finance": {
+            "key": "finance",
+            "title": "金融",
+            "description": "",
+            "summary": "金融：暂无突出新增",
+            "events": []
+          },
+          "domestic": {
+            "key": "domestic",
+            "title": "国内",
+            "description": "医疗、旅行、民生、媒体热点与中国本土关注",
+            "summary": "国内：暂无国内向新增",
+            "events": []
+          },
+          "other": {
+            "key": "other",
+            "title": "其他",
+            "description": "",
+            "summary": "其他：暂无突出新增",
+            "events": []
+          }
+        },
+        "overview": {
+          "summary": "2026-06-17 · 1 条事件。人工智能与算力动态。",
+          "bullets": [
+            "国际局势：暂无突出新增",
+            "科技：人工智能与算力动态",
+            "金融：暂无显著变化"
+          ],
+          "directions": {
+            "international": "国际局势：暂无突出新增",
+            "technology": "科技：人工智能与算力动态。",
+            "finance": "金融：暂无突出新增",
+            "domestic": "国内：暂无国内向新增"
+          },
+          "panels": {
+            "international": {
+              "title": "国际局势",
+              "points": [
+                "暂无突出新增"
+              ]
+            },
+            "technology": {
+              "title": "科技",
+              "points": [
+                "人工智能与算力动态"
+              ]
+            },
+            "finance": {
+              "title": "金融",
+              "points": [
+                "暂无显著变化"
+              ]
+            }
+          }
+        },
+        "events": [
+          {
+            "id": "求职-ai",
+            "rank": 1,
+            "category": "科技",
+            "region": "全球",
+            "time": "2026-06-17 09:29",
+            "title": "求职 AI",
+            "summary": "人工智能与算力动态。",
+            "tags": [
+              "科技",
+              "供应链"
+            ],
+            "severity": 68,
+            "special": false,
+            "occurredAt": "2026-06-17T09:29:04.177Z",
+            "timeline": [
+              [
+                "今日",
+                "用户输入主题「求职 AI」，系统按科技类目入库并纳入观察列表。"
+              ]
+            ],
+            "impacts": [],
+            "references": [],
+            "displayTitle": "人工智能与算力动态",
+            "desc": "人工智能与算力动态。",
+            "impact": "人工智能与算力动态。"
+          }
+        ],
+        "sections": [
+          {
+            "key": "politics",
+            "title": "政治",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          },
+          {
+            "key": "finance",
+            "title": "金融",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          },
+          {
+            "key": "technology",
+            "title": "科技",
+            "events": [
+              {
+                "id": "求职-ai",
+                "rank": 1,
+                "category": "科技",
+                "region": "全球",
+                "time": "2026-06-17 09:29",
+                "title": "求职 AI",
+                "summary": "人工智能与算力动态。",
+                "tags": [
+                  "科技",
+                  "供应链"
+                ],
+                "severity": 68,
+                "special": false,
+                "occurredAt": "2026-06-17T09:29:04.177Z",
+                "timeline": [
+                  [
+                    "今日",
+                    "用户输入主题「求职 AI」，系统按科技类目入库并纳入观察列表。"
+                  ]
+                ],
+                "impacts": [],
+                "references": [],
+                "displayTitle": "人工智能与算力动态",
+                "desc": "人工智能与算力动态。",
+                "impact": "人工智能与算力动态。"
+              }
+            ],
+            "subsections": [],
+            "count": 1
+          },
+          {
+            "key": "other",
+            "title": "其他",
+            "events": [],
+            "subsections": [],
+            "count": 0
+          }
+        ],
+        "references": [
+          {
+            "id": "ref-求职-ai",
+            "eventId": "求职-ai",
+            "title": "求职 AI",
+            "source": "本地事件库",
+            "url": "",
+            "provider": "local",
+            "category": "科技",
+            "occurredAt": "2026-06-17T09:29:04.177Z",
+            "accessedAt": "2026-06-17T09:29:04.187Z"
+          }
+        ],
+        "status": {
+          "kind": "ready",
+          "message": "已生成 1 条当日事件。",
+          "sourceAttempted": false,
+          "sourceArticleCount": 0,
+          "ingestedEventCount": 1,
+          "providerStatuses": []
+        },
+        "reportLayouts": {
+          "v1": {
+            "title": "管理速读版",
+            "highlights": [
+              "人工智能与算力动态"
+            ],
+            "riskNotes": [
+              "暂无高风险事件升级"
+            ]
+          },
+          "v2": {
+            "title": "研究分析版",
+            "threads": [
+              "国际局势：暂无突出新增",
+              "科技：人工智能与算力动态",
+              "金融：暂无显著变化"
+            ],
+            "focus": [
+              "科技"
+            ]
+          },
+          "v3": {
+            "title": "行动决策版",
+            "priorities": [
+              "人工智能与算力动态"
+            ],
+            "nextActions": [
+              "跟踪宏观事件后续 24h 进展",
+              "复核关注方向是否需要新增",
+              "对高风险事件补充二级证据源"
+            ]
+          }
+        },
+        "review": {
+          "status": "reviewed",
+          "count": 1,
+          "reviewer": "local-rule-review",
+          "reviewedAt": "2026-06-17T09:29:04.187Z",
+          "checks": [
+            "日期范围",
+            "事件完整度",
+            "参考存在性",
+            "结构完整性",
+            "主类目归并",
+            "日报四块结构"
+          ],
+          "findings": [
+            {
+              "check": "日期范围",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "事件完整度",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "参考存在性",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "结构完整性",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "主类目归并",
+              "ok": true,
+              "note": "通过"
+            },
+            {
+              "check": "日报四块结构",
+              "ok": true,
+              "note": "通过"
+            }
+          ],
+          "note": "本次 review 基于本地事件库的日期、字段、参考与结构完整性检查；外部真实性仍需接入权威来源后继续增强。"
+        },
+        "presentation": "timeline",
+        "refreshIntervalHours": 1,
+        "nextRefreshAt": "2026-06-17T10:29:04.189Z",
+        "lastRefreshedAt": "2026-06-17T09:29:04.185Z",
+        "timeline": [
+          {
+            "id": "timeline-refresh-cutoff-2026-06-17",
+            "at": "2026-06-17T09:29:04.185Z",
+            "time": "2026-06-17 17:29",
+            "isRefreshCutoff": true,
+            "title": "上次更新",
+            "displayTitle": "上次更新",
+            "desc": "本次刷新周期内（00:00 — 17:29）暂无新增事件。",
+            "lane": "system",
+            "laneTitle": "刷新"
+          }
+        ],
+        "timelineHours": [],
+        "timelineByLane": {
+          "international": [],
+          "technology": [],
+          "finance": [],
+          "domestic": [],
+          "other": []
+        },
+        "relatedMaterials": [
+          {
+            "id": "ref-求职-ai",
+            "eventId": "求职-ai",
+            "title": "求职 AI",
+            "url": "",
+            "source": "本地事件库",
+            "provider": "local",
+            "occurredAt": "2026-06-17T09:29:04.177Z"
+          },
+          {
+            "id": "mat-求职-ai",
+            "eventId": "求职-ai",
+            "title": "人工智能与算力动态",
+            "url": "",
+            "source": "科技",
+            "provider": "event",
+            "occurredAt": "2026-06-17T09:29:04.177Z"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "2026-06-18T03:51:51.317Z"
+}

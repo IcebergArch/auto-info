@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Nexus 情报工作站">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#11202f"/>
+      <stop offset="100%" stop-color="#060a12"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#25e0c4"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <ellipse cx="90" cy="90" rx="59" ry="37" fill="none" stroke="url(#ring)" stroke-width="8" opacity="0.9"/>
+  <circle cx="90" cy="90" r="17.5" fill="url(#ring)"/>
+  <circle cx="90" cy="90" r="6.5" fill="#060a12"/>
+  <circle cx="37" cy="51" r="5.5" fill="#25e0c4"/>
+  <circle cx="143" cy="129" r="5.5" fill="#38bdf8"/>
+  <circle cx="138" cy="46" r="4.5" fill="#7be9d8"/>
+</svg>

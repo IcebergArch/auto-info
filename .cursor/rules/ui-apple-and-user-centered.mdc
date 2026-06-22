@@ -1,0 +1,12 @@
+---
+description: Apple 风格与用户任务优先（UI 原则摘要）
+alwaysApply: true
+---
+
+# UI 总则
+
+SSOT：`spec/constraints/UI-DESIGN.md`
+
+- Apple 克制风：留白、清晰层级、设计令牌
+- 主任务优先、渐进披露；高频动作用图标
+- 改 UI 前先更 spec；交付前 Design 审查

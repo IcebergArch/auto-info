@@ -1,0 +1,17 @@
+---
+description: 规则须简洁、去重、消冲突 — 修订规则时强制执行
+alwaysApply: true
+---
+
+# 规则维护
+
+SSOT：`spec/constraints/RULES-MAINTENANCE.md`
+
+修订任何规则/约束时：
+
+1. **查重** — 不复制已有条文；合并到 SSOT，其它处改指针
+2. **消冲突** — 以 `spec/constraints/` 为准，回写 UC
+3. **删冗余** — 过时路径/栈（如 `apps/web`）立即改正或删除
+4. **Cursor 规则** — 保持简短；细则只在 spec
+
+历史复盘写入 `docs/iterations/RULE_INCIDENT_LOG.md`，不堆在门禁正文里。

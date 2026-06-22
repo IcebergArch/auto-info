@@ -1,0 +1,14 @@
+---
+description: Product 驱动流程与验收
+alwaysApply: true
+---
+
+# Product 生命周期
+
+流程：`Product 发起 → 实现 → Design 审查 → Quality 验证 → Product 验收`
+
+- 未 Product 验收通过，不得关闭任务
+- UI 改动须 Design 审查（`design-agent-review.mdc`）
+- 连续重构 10 轮：见 `docs/rules/TEAM_WORKFLOW.md`、`docs/iterations/REFACTOR_10X_PROGRAM.md`
+
+验收四维：功能完备 · 流程顺畅 · 设计美观 · Apple/用户任务优先

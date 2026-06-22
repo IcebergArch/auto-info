@@ -1,0 +1,177 @@
+/* —— 主题令牌真源（氛围系统） ——
+ * 全站颜色/质感令牌集中于此，通过 <html data-theme="..."> 一键换肤。
+ * 设计目标：让"个人情报工作站"可在多种氛围基调间切换。
+ *
+ * 令牌分层：
+ *  - 结构令牌（圆角/间距/字体族）放 :root，跨主题共享。
+ *  - 颜色/质感令牌按主题覆盖。
+ *  - :root 默认值 = 晨曦(morning)，保证无 JS 时与原界面一致。
+ *
+ * 扩展令牌（在原 --bg/--surface/--ink/--accent 基础上新增，用于收敛散落硬编码色）：
+ *  --surface-raised  抬升卡片（原 #fff）
+ *  --surface-sunken  下陷区/表头（原 #fafafa / #f8f9fb）
+ *  --surface-pill    标签胶囊底（原 #eef0f3 / #f2f2f4）
+ *  --on-accent       accent 上的文字（原 #fff）
+ *  --input-border    输入框边（原 #d8dee6）
+ *  --warn / --warn-bg / --warn-border  警示三色（原 #9a6700 / #fff8e6 / #f0e0b8）
+ *  --shadow-color    阴影基色（驱动 --shadow-soft / glow）
+ *  --glow            强调发光（科幻/终端主题用，浅色主题为 none）
+ *  --backdrop-grid   背景网格叠层（科幻主题用，其余 none）
+ *  --font-mono       数据/等宽字体
+ *  --q-what / --q-impact / --q-action  三问语义色
+ */
+
+:root {
+  /* —— 跨主题结构令牌 —— */
+  --radius: 14px;
+  --radius-pill: 999px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Roboto Mono", "Fira Code",
+    "DejaVu Sans Mono", ui-monospace, Menlo, Consolas, monospace;
+  --backdrop-grid: none;
+  --glow: none;
+}
+
+/* ============================================================
+ * 晨曦 morning —— 默认浅色（保持原 Apple 质感）
+ * ============================================================ */
+:root,
+[data-theme="morning"] {
+  color-scheme: light;
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f8f9fb;
+  --surface-pill: #eef0f3;
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --accent: #0071e3;
+  --on-accent: #ffffff;
+  --positive: #248a3d;
+  --negative: #d70015;
+  --neutral: #6e6e73;
+  --line: rgba(0, 0, 0, 0.08);
+  --input-border: #d8dee6;
+  --warn: #9a6700;
+  --warn-bg: #fff8e6;
+  --warn-border: #f0e0b8;
+  --shadow-color: rgba(16, 24, 40, 0.08);
+  --shadow-soft: 0 10px 30px var(--shadow-color);
+  --q-what: #0071e3;
+  --q-impact: #b25000;
+  --q-action: #248a3d;
+}
+
+/* ============================================================
+ * 指挥中心 command —— 深色科幻 HUD，青/青绿辉光
+ * ============================================================ */
+[data-theme="command"] {
+  color-scheme: dark;
+  --font: "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Segoe UI", system-ui, sans-serif;
+  --bg: #060a12;
+  --surface: #0d1622;
+  --surface-raised: #11202f;
+  --surface-sunken: #0a121c;
+  --surface-pill: #15273a;
+  --ink: #e6f1ff;
+  --muted: #7b96b3;
+  --accent: #25e0c4;
+  --on-accent: #00261f;
+  --positive: #2ee6a6;
+  --negative: #ff5c7a;
+  --neutral: #7b96b3;
+  --line: rgba(94, 234, 212, 0.16);
+  --input-border: rgba(94, 234, 212, 0.28);
+  --warn: #ffcf6b;
+  --warn-bg: rgba(255, 184, 60, 0.1);
+  --warn-border: rgba(255, 184, 60, 0.34);
+  --shadow-color: rgba(0, 0, 0, 0.55);
+  --shadow-soft: 0 12px 34px var(--shadow-color);
+  --glow: 0 0 0 1px rgba(37, 224, 196, 0.25), 0 0 18px rgba(37, 224, 196, 0.22);
+  --backdrop-grid:
+    linear-gradient(rgba(37, 224, 196, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 224, 196, 0.05) 1px, transparent 1px);
+  --q-what: #38bdf8;
+  --q-impact: #fbbf24;
+  --q-action: #2ee6a6;
+}
+
+/* ============================================================
+ * 社讯干报 brief —— 冷静 editorial，米白/石墨，重可读性
+ * ============================================================ */
+[data-theme="brief"] {
+  color-scheme: light;
+  --font: "Georgia", "Songti SC", "Source Han Serif SC", "Noto Serif SC",
+    "PingFang SC", "Microsoft YaHei", serif;
+  --bg: #ece8e1;
+  --surface: #faf8f3;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f1ede5;
+  --surface-pill: #e7e1d6;
+  --ink: #23201b;
+  --muted: #6b6459;
+  --accent: #9a2f26;
+  --on-accent: #fdf6ee;
+  --positive: #3c6e47;
+  --negative: #9a2f26;
+  --neutral: #6b6459;
+  --line: rgba(40, 32, 22, 0.14);
+  --input-border: rgba(40, 32, 22, 0.22);
+  --warn: #8a5a00;
+  --warn-bg: #f6ecd4;
+  --warn-border: #ddc88f;
+  --shadow-color: rgba(40, 32, 22, 0.1);
+  --shadow-soft: 0 8px 22px var(--shadow-color);
+  --q-what: #2b5a7a;
+  --q-impact: #9a2f26;
+  --q-action: #3c6e47;
+}
+
+/* ============================================================
+ * 终端档案库 terminal —— 深黑底 + 磷光绿/琥珀，全等宽
+ * ============================================================ */
+[data-theme="terminal"] {
+  color-scheme: dark;
+  --font: var(--font-mono);
+  --bg: #05060a;
+  --surface: #0a0f0c;
+  --surface-raised: #0d130f;
+  --surface-sunken: #070b08;
+  --surface-pill: #111a13;
+  --ink: #b9f5c8;
+  --muted: #5f8f72;
+  --accent: #39ff88;
+  --on-accent: #02160a;
+  --positive: #39ff88;
+  --negative: #ff7b6b;
+  --neutral: #5f8f72;
+  --line: rgba(57, 255, 136, 0.18);
+  --input-border: rgba(57, 255, 136, 0.3);
+  --warn: #ffd166;
+  --warn-bg: rgba(255, 209, 102, 0.08);
+  --warn-border: rgba(255, 209, 102, 0.32);
+  --shadow-color: rgba(0, 0, 0, 0.6);
+  --shadow-soft: 0 10px 28px var(--shadow-color);
+  --glow: 0 0 0 1px rgba(57, 255, 136, 0.22), 0 0 16px rgba(57, 255, 136, 0.18);
+  --backdrop-grid:
+    linear-gradient(rgba(57, 255, 136, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57, 255, 136, 0.04) 1px, transparent 1px);
+  --q-what: #5ad1ff;
+  --q-impact: #ffd166;
+  --q-action: #39ff88;
+}
+
+/* 全局：跟随主题字体与底色，平滑过渡换肤 */
+html {
+  font-family: var(--font);
+}
+
+body {
+  background: var(--bg);
+  background-image: var(--backdrop-grid);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

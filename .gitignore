@@ -1,0 +1,7 @@
+data/system-config.json
+node_modules/
+.idea/
+.env
+.env.*
+dist/
+*.log

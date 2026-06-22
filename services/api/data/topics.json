@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-17T09:29:04.247Z",
+  "topics": [
+    {
+      "id": "topic-俄乌冲突-mqhvcv7b",
+      "title": "俄乌冲突",
+      "slug": "俄乌冲突",
+      "aliases": [
+        "俄乌",
+        "乌克兰",
+        "俄罗斯",
+        "乌东",
+        "顿巴斯",
+        "克里米亚",
+        "制裁",
+        "军援",
+        "和谈",
+        "停火"
+      ],
+      "query": "俄乌冲突",
+      "status": "active",
+      "createdAt": "2026-06-17T09:29:04.247Z",
+      "updatedAt": "2026-06-17T09:29:04.247Z",
+      "signalRefs": [],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": null
+    },
+    {
+      "id": "topic-中东局势-mqhvcv7b",
+      "title": "中东局势",
+      "slug": "中东局势",
+      "aliases": [
+        "中东",
+        "红海",
+        "冲突",
+        "地缘",
+        "航运"
+      ],
+      "query": "中东局势",
+      "status": "active",
+      "createdAt": "2026-06-17T09:29:04.247Z",
+      "updatedAt": "2026-06-17T09:29:04.247Z",
+      "signalRefs": [],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": null
+    },
+    {
+      "id": "topic-台海局势-mqhvcv7b",
+      "title": "台海局势",
+      "slug": "台海局势",
+      "aliases": [
+        "台湾",
+        "两岸",
+        "地缘",
+        "军事"
+      ],
+      "query": "台海",
+      "status": "active",
+      "createdAt": "2026-06-17T09:29:04.247Z",
+      "updatedAt": "2026-06-17T09:29:04.247Z",
+      "signalRefs": [],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": null
+    },
+    {
+      "id": "topic-ai-技术-mqhvcv7b",
+      "title": "AI 技术",
+      "slug": "ai-技术",
+      "aliases": [
+        "人工智能",
+        "大模型",
+        "算力",
+        "芯片",
+        "llm",
+        "gpt",
+        "openai",
+        "anthropic"
+      ],
+      "query": "AI技术",
+      "status": "active",
+      "createdAt": "2026-06-17T09:29:04.247Z",
+      "updatedAt": "2026-06-17T09:29:04.247Z",
+      "signalRefs": [],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": null
+    },
+    {
+      "id": "topic-关税与贸易-mqhvcv7b",
+      "title": "关税与贸易",
+      "slug": "关税与贸易",
+      "aliases": [
+        "贸易",
+        "出口",
+        "制裁",
+        "供应链"
+      ],
+      "query": "关税",
+      "status": "active",
+      "createdAt": "2026-06-17T09:29:04.247Z",
+      "updatedAt": "2026-06-17T09:29:04.247Z",
+      "signalRefs": [],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": null
+    }
+  ],
+  "updatedAt": "2026-06-18T03:34:51.014Z"
+}

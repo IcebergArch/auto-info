@@ -1,0 +1,14 @@
+---
+description: STDD — 先 spec 后代码
+alwaysApply: true
+---
+
+# STDD 工作流
+
+1. 用户**提报问题** → 先 `issue-closure-rule-review.mdc`（P0）
+2. **先** `spec/`（requirements / use-cases / contracts / constraints）
+3. **后** `services/api/`、`apps/web-react/`
+4. 技能：`.cursor/skills/std-development/SKILL.md`
+5. 约束分层：`LAW.md` → `NORMS.md` → 专题约束 → `REFERENCES.md`
+
+未要求跳过规格时，不得直接改实现。交付见 `delivery-gates.mdc`。

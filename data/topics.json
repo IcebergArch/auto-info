@@ -1,0 +1,995 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-17T09:13:23.714Z",
+  "topics": [
+    {
+      "id": "topic-俄乌冲突-mqhusphe",
+      "title": "俄乌冲突",
+      "slug": "俄乌冲突",
+      "aliases": [
+        "俄乌",
+        "乌克兰",
+        "俄罗斯",
+        "乌东",
+        "顿巴斯",
+        "克里米亚",
+        "制裁",
+        "军援",
+        "和谈",
+        "停火"
+      ],
+      "query": "俄乌冲突",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:23.714Z",
+      "updatedAt": "2026-06-22T02:28:08.223Z",
+      "signalRefs": [
+        "intel-ru-ua-2022-invade",
+        "intel-ru-ua-2022-energy",
+        "intel-ru-ua-2023-counter",
+        "intel-ru-ua-2014",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizwfbvv95c",
+        "news-政治-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmikgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmioafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi8gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwjbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmipwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmis0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmimafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmid0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmikwjbvv95c",
+        "俄乌冲突",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi1afbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmie0fvx3lxt"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:28:08.223Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:28:08.217Z",
+        "recentCount": 32,
+        "historyCount": 7,
+        "verdict": "俄乌冲突持续高烈度，西方制裁与军援同步升级，能源与供应链风险加剧，和平谈判虽有推动但无实质突破。",
+        "clusters": [
+          {
+            "theme": "军事态势与军援",
+            "gist": "乌克兰持续对俄能源及军事目标发动精准打击，西方加快高端武器供应（如瑞典Gripen战机），俄军经济压力加大。"
+          },
+          {
+            "theme": "制裁与经济压力",
+            "gist": "欧美加码对俄油气、金融及影子舰队制裁，俄债务负担激增，莫斯科试图通过外交施压缓解制裁冲击。"
+          },
+          {
+            "theme": "地缘政治与和平努力",
+            "gist": "欧洲主要国家推动和平谈判，特朗普表态愿助促和，但俄乌双方立场依旧强硬，和平前景短期内不明朗。"
+          },
+          {
+            "theme": "能源与市场波动",
+            "gist": "俄乌冲突引发全球能源价格波动，供应链与航运安全风险显著提升，市场避险情绪加剧，影响全球经济稳定。"
+          }
+        ],
+        "trend": "较历史阶段，冲突进入持久高强度对抗期，制裁与军援力度同步升级，和平谈判虽有尝试但未见实质进展，地缘风险整体上升。",
+        "foresight": [
+          "接下来大概率俄方经济压力将持续加剧，内部精英推动结束战争的呼声增强。",
+          "西方将继续强化对俄能源与金融制裁，配合军事援助，力图削弱俄军持续作战能力。",
+          "和平谈判虽会被多方推动，但因双方核心诉求差距大，短期内难以达成实质性协议。"
+        ],
+        "entryExit": [
+          "现在偏空，因俄乌冲突及制裁升级将持续扰动能源市场与供应链，相关风险资产波动加剧。",
+          "若俄方出现明显经济崩溃迹象或和平谈判突破，则可考虑切入相关风险资产。",
+          "若冲突进一步升级至全面区域战争，则应退出高风险敞口，转向避险资产。"
+        ],
+        "cognitiveCheck": [
+          "新信息印证了俄乌冲突进入持久化、高烈度对抗阶段的判断。",
+          "西方制裁力度加大及军援升级挑战了此前对冲突短期内缓和的预期。",
+          "和平谈判虽有推动，但立场强硬需微调对和平进程乐观预期。"
+        ],
+        "conclusion": "判断俄乌冲突短期内难以结束，制裁与军援将持续加码，能源与供应链风险显著，建议以防御性策略应对，重点关注俄经济压力及和平谈判动态。",
+        "mermaid": "flowchart TD\n  A[俄乌冲突持续] -->|加剧| B[西方制裁升级]\n  B --> C[俄经济压力增大]\n  A -->|乌军打击| D[俄能源基础设施受损]\n  B --> E[西方军援加速]\n  E --> A\n  F[和平谈判推动] -->|短期无突破| A\n  C -->|内部压力| F\n  D -->|市场波动| G[全球能源与供应链风险]"
+      }
+    },
+    {
+      "id": "topic-中东局势-mqhusphe",
+      "title": "中东局势",
+      "slug": "中东局势",
+      "aliases": [
+        "中东",
+        "红海",
+        "冲突",
+        "地缘",
+        "航运"
+      ],
+      "query": "中东局势",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:23.714Z",
+      "updatedAt": "2026-06-22T02:28:25.705Z",
+      "signalRefs": [
+        "intel-ru-ua-2022-invade",
+        "red-sea-shipping",
+        "intel-ru-ua-2022-energy",
+        "intel-ru-ua-2023-counter",
+        "intel-ru-ua-2014",
+        "news-国际局势-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-国际局势-googlenews-https-news-google-com-rss-articles-cbmikafbvv95c",
+        "news-政治-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "intel-ru-ua-2024-stalemate",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmikgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiakfvx3lxt",
+        "intel-ru-ua-market",
+        "news-googlenews-https-news-google-com-rss-articles-cbmioafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmixkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuwfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7247294-raid-7295943",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi8gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmidefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmib0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwjbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmipwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmifefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmis0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7210328-raid-7295927",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizefvx3lxt",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiiwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmimafbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmid0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmikwjbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiaefvx3lxt",
+        "俄乌冲突",
+        "news-googlenews-https-news-google-com-rss-articles-cbmix0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmickfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiz0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmingfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "介绍下-珀乐互动-这家公司",
+        "a股可行的投资方法探索",
+        "a股可行的投资策略探索",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwefvx3lxt"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:28:25.705Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:28:25.704Z",
+        "recentCount": 50,
+        "historyCount": 10,
+        "verdict": "中东局势近期因美伊紧张与红海航运风险加剧，地缘政治与能源供应链风险显著上升，需重点防范区域冲突升级对全球市场的传导效应。",
+        "clusters": [
+          {
+            "theme": "美伊关系紧张",
+            "gist": "近期美伊局势再起疑云，虽有谈判迹象但风险依旧，可能引发区域安全波动。"
+          },
+          {
+            "theme": "红海航运与供应链风险",
+            "gist": "红海航运保险成本上升，港口拥堵与绕行加剧，全球供应链压力明显增加。"
+          },
+          {
+            "theme": "能源市场波动",
+            "gist": "中东局势紧张推高能源价格波动，欧盟对俄制裁持续施压，全球能源安全形势复杂。"
+          },
+          {
+            "theme": "地缘冲突与全球市场联动",
+            "gist": "中东局势与乌克兰冲突、欧美制裁形成叠加效应，影响全球避险资产与资本流动。"
+          }
+        ],
+        "trend": "较历史阶段，中东局势呈现局部紧张升级，尤其美伊关系与红海航运风险显著上升，能源与供应链波动加剧，整体风险偏上行。",
+        "foresight": [
+          "接下来大概率美伊局势将维持高风险震荡，局部冲突可能性增加，影响区域安全环境。",
+          "红海航运风险短期内难缓解，保险费率与绕行成本将持续推高，全球供应链压力加大。",
+          "能源价格波动将延续，欧盟对俄制裁力度可能进一步升级，全球能源市场不稳定性增强。"
+        ],
+        "entryExit": [
+          "当前偏空，因中东地缘风险与供应链压力叠加，短期内市场波动性加大，风险资产承压。",
+          "若美伊局势出现实质性缓和信号且红海航运风险下降，可考虑逐步切入相关风险资产。",
+          "若冲突升级或制裁加码，应迅速退出高风险敞口，转向避险资产。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：中东局势仍是全球地缘政治风险核心，短期内难有根本缓解。",
+          "新信息印证了能源与航运风险对全球市场的传导机制，需将其纳入整体风险评估。",
+          "需微调对美伊关系的乐观预期，当前局势更偏向高风险震荡而非稳定。"
+        ],
+        "conclusion": "判断是中东局势短期内风险偏上行，重点防范美伊紧张与红海航运风险对全球能源与供应链的冲击，当前应保持防御姿态，待风险缓释后择机介入。",
+        "mermaid": "flowchart TD\n  A[中东局势] -->|美伊紧张| B[区域安全风险]\n  A -->|红海航运风险| C[供应链压力]\n  A -->|能源价格波动| D[全球能源市场]\n  B -->|冲突升级| E[市场避险情绪]\n  C -->|成本上升| F[全球贸易成本]\n  D -->|制裁加码| G[能源供应不稳定]\n  E --> H[资本流动波动]\n  F --> H\n  G --> H"
+      }
+    },
+    {
+      "id": "topic-台海局势-mqhusphe",
+      "title": "台海局势",
+      "slug": "台海局势",
+      "aliases": [
+        "台湾",
+        "两岸",
+        "地缘",
+        "军事"
+      ],
+      "query": "台海",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:23.714Z",
+      "updatedAt": "2026-06-22T02:28:41.007Z",
+      "signalRefs": [
+        "intel-ru-ua-2022-invade",
+        "red-sea-shipping",
+        "intel-ru-ua-2022-energy",
+        "intel-ru-ua-2023-counter",
+        "intel-ru-ua-2014",
+        "news-政治-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "intel-ru-ua-2024-stalemate",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmikgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiakfvx3lxt",
+        "intel-ru-ua-market",
+        "news-googlenews-https-news-google-com-rss-articles-cbmioafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmixkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuwfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7247294-raid-7295943",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi8gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmidefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmib0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwjbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmipwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmifefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmis0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7210328-raid-7295927",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizefvx3lxt",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiiwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmimafbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmid0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmikwjbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiaefvx3lxt",
+        "俄乌冲突",
+        "news-googlenews-https-news-google-com-rss-articles-cbmix0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmickfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiz0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmingfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "介绍下-珀乐互动-这家公司",
+        "a股可行的投资方法探索",
+        "台海",
+        "a股可行的投资策略探索",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmid0fvx3lxt"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:28:41.006Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:28:41.005Z",
+        "recentCount": 50,
+        "historyCount": 10,
+        "verdict": "台海局势近期保持高度紧张，地缘政治风险加剧，重点在于美中战略博弈与区域军事动态。",
+        "clusters": [
+          {
+            "theme": "美中军事与外交互动",
+            "gist": "美方持续强化对台军售与军事存在，中方则加大军事演训和外交压力，双方博弈加剧。"
+          },
+          {
+            "theme": "区域安全与供应链风险",
+            "gist": "台海紧张态势推动区域航运保险费率上涨，全球供应链安全面临挑战，能源与航运成本波动明显。"
+          },
+          {
+            "theme": "国际环境与多重冲突叠加",
+            "gist": "乌克兰战争及中东局势影响全球地缘政治格局，间接加剧台海局势复杂性和不确定性。"
+          }
+        ],
+        "trend": "相比历史，台海局势近期呈现升级态势，军事活动频繁且外交摩擦加剧，风险溢出效应扩大。",
+        "foresight": [
+          "未来30天内中美在台海周边的军事对峙可能进一步升级，局部冲突风险上升。",
+          "区域航运与能源供应链将持续承压，相关成本和保险费率有继续上涨趋势。",
+          "国际多重冲突背景下，台海问题可能被更多大国战略博弈利用，局势更趋复杂。"
+        ],
+        "entryExit": [
+          "当前偏空，因军事紧张与地缘风险加剧，短期内不宜加大涉台相关投资或暴露于高风险区域。",
+          "若出现中美双方明显降温信号或实质性外交谈判窗口开启，可考虑逐步切入相关市场。",
+          "若台海局势出现突发军事冲突，则应迅速退出高风险敞口，防范系统性风险扩散。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：台海局势高度敏感且易受国际大环境影响，需动态调整风险评估。",
+          "近期信息印证了台海军事与外交博弈加剧的趋势，挑战了以往对局势短期稳定的预期。",
+          "多重地缘冲突叠加效应需纳入整体风险框架，不能孤立看待台海局势。"
+        ],
+        "conclusion": "判断是台海局势短期内风险明显上升，倾向维持高度戒备和防范，避免在当前环境下加大暴露，重点监控军事动态与国际大国互动。",
+        "mermaid": "flowchart TD\n  A[台海局势紧张] -->|加剧| B[美中军事对峙]\n  B -->|推动| C[区域航运与供应链风险]\n  C -->|影响| D[全球能源与保险成本]\n  A -->|受影响| E[国际多重冲突]\n  E -->|加剧| A\n  B -->|可能| F[局部军事冲突]\n  F -->|导致| G[高风险敞口退出]\n  D -->|反馈| H[投资风险偏好下降]"
+      }
+    },
+    {
+      "id": "topic-ai-技术-mqhusphe",
+      "title": "AI 技术",
+      "slug": "ai-技术",
+      "aliases": [
+        "人工智能",
+        "大模型",
+        "算力",
+        "芯片",
+        "llm",
+        "gpt",
+        "openai",
+        "anthropic"
+      ],
+      "query": "AI技术",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:23.714Z",
+      "updatedAt": "2026-06-22T02:28:56.356Z",
+      "signalRefs": [
+        "chip-export",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmimgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmihgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmirgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmi5wfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmia0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmilafbvv95c",
+        "news-国际局势-googlenews-https-news-google-com-rss-articles-cbmikafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiakfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiowfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmipajbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmidkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmijwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmieefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmitafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiyefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmidefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmib0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmif0fvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmixwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiiwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiugfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmie0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmix0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmid0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmilwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmikafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiggjbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmingfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmic0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmipwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmi1afbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmidkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmibkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3wfbvv95c"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:28:56.356Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:28:56.354Z",
+        "recentCount": 44,
+        "historyCount": 16,
+        "verdict": "AI技术正处于算力供应链重塑与政策监管加码的关键节点，芯片出口管制和算力资源争夺将深刻影响产业格局与国际竞争。",
+        "clusters": [
+          {
+            "theme": "算力与芯片供应链",
+            "gist": "AI芯片出口管制政策频繁讨论，可能导致算力供应链重构，影响相关厂商订单与全球产业链布局。"
+          },
+          {
+            "theme": "政策监管与治理",
+            "gist": "多地出台AI治理法规，监管力度加大，尤其针对AI安全、数据隐私及生成内容监管，监管环境趋严。"
+          },
+          {
+            "theme": "产业应用与创新进展",
+            "gist": "AI在国防、医疗、教育等领域加速落地，企业加大投入，创新生态活跃，但部分领域如医疗AI进展受限。"
+          },
+          {
+            "theme": "地缘政治与市场波动",
+            "gist": "地缘冲突与合作并存，能源、航运等供应链风险加剧，区域股市与资金流动对AI板块风险偏好产生显著影响。"
+          }
+        ],
+        "trend": "近期AI技术相关政策与供应链管控明显升级，监管环境趋严，产业创新步伐加快，较历史阶段更强调安全与合规，地缘政治影响加剧。",
+        "foresight": [
+          "接下来大概率会出现更严格的AI芯片出口限制，推动算力供应链区域化和多元化布局。",
+          "AI治理法规将持续完善，监管机构对生成内容和数据安全的管控力度将显著加强。",
+          "国防和关键行业对AI算力投入将持续增长，推动相关技术和产业链快速发展。"
+        ],
+        "entryExit": [
+          "当前偏多布局AI芯片及算力相关产业链，因政策推动供应链重构带来结构性机会。",
+          "对AI应用领域尤其是医疗和教育的投资需谨慎，因技术落地存在不确定性和监管风险。",
+          "若地缘政治冲突加剧导致供应链中断，应及时调整相关产业链敞口，防范系统性风险。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：AI技术发展受政策与地缘政治双重驱动，算力与芯片供应链是核心制约因素。",
+          "监管趋严的态势挑战了此前对AI快速无序扩张的乐观预期，需调整对行业合规风险的认知。",
+          "产业创新虽活跃，但部分领域如医疗AI进展受限，需微调对AI应用普适性的预期。"
+        ],
+        "conclusion": "判断是当前AI技术发展进入政策监管与供应链重塑双重关键期，倾向加大对算力及芯片供应链的战略投入，同时强化合规风险管理，避免过度押注短期应用场景。",
+        "mermaid": "flowchart TD\n  A[AI芯片出口管制] -->|重塑| B[算力供应链]\n  B -->|影响| C[产业订单与布局]\n  A -->|政策升级| D[AI治理法规]\n  D -->|加强| E[数据安全与内容监管]\n  C -->|推动| F[国防与关键行业投入]\n  E -->|限制| G[医疗与教育AI应用]\n  H[地缘政治风险] -->|加剧| B\n  H -->|影响| I[市场波动与资金流]"
+      }
+    },
+    {
+      "id": "topic-关税与贸易-mqhusphe",
+      "title": "关税与贸易",
+      "slug": "关税与贸易",
+      "aliases": [
+        "贸易",
+        "出口",
+        "制裁",
+        "供应链"
+      ],
+      "query": "关税",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:23.714Z",
+      "updatedAt": "2026-06-22T02:29:10.982Z",
+      "signalRefs": [
+        "intel-ru-ua-2022-invade",
+        "chip-export",
+        "red-sea-shipping",
+        "intel-ru-ua-2022-energy",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmikgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiakfvx3lxt",
+        "intel-ru-ua-market",
+        "news-googlenews-https-news-google-com-rss-articles-cbmioafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmixkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiowfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7247294-raid-7295943",
+        "news-googlenews-https-news-google-com-rss-articles-cbmipajbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi8gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmie0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiyefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmidefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmib0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwjbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmif0fvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmipwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmisgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmibkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmifefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmis0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-gdelt-https-city-udn-com-2976-7210328-raid-7295927",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0afbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmizefvx3lxt",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivefvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiekfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi5wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiiwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0gfbvv95c"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:29:10.982Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:29:10.980Z",
+        "recentCount": 53,
+        "historyCount": 7,
+        "verdict": "当前全球关税与贸易环境受地缘政治冲突和技术出口管制双重驱动，供应链成本与风险显著上升，需重点应对能源制裁与高科技出口限制的叠加影响。",
+        "clusters": [
+          {
+            "theme": "地缘政治与制裁升级",
+            "gist": "俄乌冲突及相关欧美对俄能源和金融制裁持续加码，导致航运保险费率和供应链成本大幅上涨，全球贸易环境趋紧。"
+          },
+          {
+            "theme": "高科技出口管制强化",
+            "gist": "美国及盟友针对AI芯片及算力设备的出口限制升级，影响全球半导体供应链和云服务市场，重塑技术贸易格局。"
+          },
+          {
+            "theme": "能源市场与贸易成本波动",
+            "gist": "中东局势紧张及美伊协议影响油价波动，叠加航运绕行和港口拥堵，推高全球贸易运输成本。"
+          }
+        ],
+        "trend": "较历史阶段，当前关税与贸易环境呈现升级态势，尤其是地缘政治制裁和高科技出口管制双重压力明显增强，贸易风险和成本同步上升。",
+        "foresight": [
+          "接下来大概率会看到欧美对俄能源及金融制裁进一步细化并扩大至更多实体，贸易壁垒加剧。",
+          "高科技出口管制将持续深化，尤其针对AI芯片和云计算相关设备，全球供应链将加速区域化调整。",
+          "能源价格和航运保险费率将保持高位波动，贸易成本短期内难以显著回落。"
+        ],
+        "entryExit": [
+          "现在偏空，因地缘政治风险和出口管制叠加，贸易环境不确定性高，企业应谨慎扩张跨境业务。",
+          "出现俄乌冲突缓和或制裁放松信号时，可考虑适度切入相关能源和航运板块。",
+          "若高科技出口管制政策进一步收紧，则应退出依赖敏感技术进口的供应链布局。"
+        ],
+        "cognitiveCheck": [
+          "新信息印证了地缘政治冲突对贸易成本和供应链安全的重大影响。",
+          "高科技出口管制的升级挑战了此前对全球半导体供应链稳定性的乐观预期。",
+          "能源市场的波动性和航运成本上升需重新纳入贸易风险评估模型。"
+        ],
+        "conclusion": "判断是当前关税与贸易环境正处于多重风险叠加的升级期，倾向采取防御性策略，重点管控供应链风险和成本压力，避免高风险市场暴露。",
+        "mermaid": "flowchart LR\n  A[地缘政治冲突] -->|加剧| B[能源制裁]\n  B -->|推高| C[航运保险费率]\n  A -->|引发| D[出口管制升级]\n  D -->|影响| E[高科技供应链]\n  C -->|增加| F[贸易成本]\n  E -->|重塑| F\n  F -->|压缩| G[全球贸易活跃度]\n  G -->|反馈| A"
+      }
+    },
+    {
+      "id": "topic-tcl今日10个点-mqhusxa0",
+      "title": "TCL今日10个点",
+      "slug": "tcl今日10个点",
+      "aliases": [],
+      "query": "TCL今日10个点",
+      "status": "active",
+      "createdAt": "2026-06-17T09:13:33.816Z",
+      "updatedAt": "2026-06-22T02:29:23.135Z",
+      "signalRefs": [
+        "tcl今日10个点"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:29:23.135Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:29:23.133Z",
+        "recentCount": 1,
+        "historyCount": 0,
+        "verdict": "当前关于‘TCL今日10个点’的信息极度匮乏，仅有一条模糊信号，无法形成明确判断，需谨慎对待。",
+        "clusters": [
+          {
+            "theme": "信息稀缺",
+            "gist": "仅有一条2026年6月18日的模糊信号，缺乏具体内容和背景，无法推断实质信息。"
+          },
+          {
+            "theme": "缺乏历史对比",
+            "gist": "无历史数据或背景信号，无法判断趋势或变化，信息孤立且无参考价值。"
+          },
+          {
+            "theme": "决策认知空白",
+            "gist": "决策者此前无相关认知积累，当前信息无法有效填补认知缺口。"
+          }
+        ],
+        "trend": "信息量极度不足，无法判断近期态势与历史趋势，整体处于信息真空状态。",
+        "foresight": [
+          "接下来大概率不会出现有价值的公开信息，‘TCL今日10个点’可能是内部或非公开议题。",
+          "若有后续信息释放，可能涉及TCL战略调整或市场动作，但当前无迹象。",
+          "信息缺失可能导致决策风险，需等待更明确信号。"
+        ],
+        "entryExit": [
+          "当前偏空，因信息缺失无法确认任何投资或战略切入点。",
+          "出现具体数据或明确事件时可考虑切入，否则保持观望。",
+          "若出现负面信号（如业绩下滑、市场份额丢失）则应迅速退出相关布局。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：‘TCL今日10个点’目前无实质内容，无法形成有效认知。"
+        ],
+        "conclusion": "判断是信息极度不足，当前无明确可操作信号，建议保持观望，等待后续实质信息披露。",
+        "mermaid": "flowchart LR\nA[‘TCL今日10个点’信号] -->|信息稀缺| B[无法形成判断]\nB --> C{是否有后续信息}\nC -->|无| D[保持观望]\nC -->|有| E[重新评估]\nD --> F[无操作]\nE --> F"
+      }
+    },
+    {
+      "id": "topic-a股投资-mqiwpvdo",
+      "title": "A股投资",
+      "slug": "a股投资",
+      "aliases": [],
+      "query": "A股投资",
+      "status": "active",
+      "createdAt": "2026-06-18T02:54:56.796Z",
+      "updatedAt": "2026-06-22T02:50:22.464Z",
+      "signalRefs": [
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmif0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmia0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmi2afbvv95c",
+        "grid-power-ai",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmi6gfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "a股可行的投资方法探索",
+        "a股可行的投资策略探索",
+        "a股投资",
+        "全球投资市场分析"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:50:22.464Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:50:22.462Z",
+        "recentCount": 8,
+        "historyCount": 3,
+        "verdict": "A股投资正处于结构性机遇窗口，受益于人工智能及新基建推动，短期波动加剧但中长期趋势向好。",
+        "clusters": [
+          {
+            "theme": "人工智能驱动投资热潮",
+            "gist": "AI相关技术和产业投资显著增加，带动A股中科技、新能源及数据中心板块活跃。"
+          },
+          {
+            "theme": "新基建与算力扩展",
+            "gist": "电网与储能投资提升，算力瓶颈从芯片向电力转移，相关产业链受益明显。"
+          },
+          {
+            "theme": "全球资本流动与外资动态",
+            "gist": "全球投资市场波动加剧，外资对中国科技及防务领域投资保持兴趣，增强A股国际吸引力。"
+          },
+          {
+            "theme": "市场波动与估值调整",
+            "gist": "近期A股波动加大，部分高估值板块调整明显，但核心成长板块估值仍具吸引力。"
+          }
+        ],
+        "trend": "近期A股投资热度因AI和新基建升级明显，较历史阶段性波动更具结构性机遇，整体态势向好但短期波动加剧。",
+        "foresight": [
+          "接下来大概率出现AI及新基建相关板块资金持续流入，推动相关细分行业估值提升。",
+          "全球资本流动不确定性仍存，短期可能引发市场波动，但长期外资配置A股意愿增强。",
+          "电力及储能相关产业链将成为新一轮投资热点，带动相关上市公司业绩改善。"
+        ],
+        "entryExit": [
+          "现在偏多，理由是AI和新基建驱动的成长板块具备中长期确定性增长潜力。",
+          "出现全球宏观风险加剧或政策收紧迹象时应适度减仓以规避系统性风险。",
+          "核心科技及新能源板块若出现估值大幅回调且基本面未恶化时可择机加仓。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：A股投资结构性机会明显，尤其聚焦AI与新基建相关领域。",
+          "近期信息印证了人工智能投资热潮对A股的推动作用，需调整对市场波动性的预期。",
+          "全球资本流动和外资投资动态对A股影响加大，需纳入整体投资决策考量。"
+        ],
+        "conclusion": "判断是当前A股投资以AI和新基建为核心驱动力，短期波动不可避免但中长期趋势向好，倾向积极配置相关成长板块，警惕宏观风险波动。",
+        "mermaid": "flowchart LR\n  A[人工智能投资热潮] --> B[科技与新能源板块活跃]\n  B --> C[估值提升与波动]\n  A --> D[新基建与算力扩展]\n  D --> E[电网与储能投资增加]\n  F[全球资本流动] --> B\n  F --> G[外资持续配置]\n  G --> C"
+      }
+    },
+    {
+      "id": "topic-全球投资市场分析-mqj4wbbc",
+      "title": "全球投资市场分析",
+      "slug": "全球投资市场分析",
+      "aliases": [],
+      "query": "全球投资市场分析",
+      "status": "active",
+      "createdAt": "2026-06-18T06:43:54.312Z",
+      "updatedAt": "2026-06-22T02:50:41.591Z",
+      "signalRefs": [
+        "intel-ru-ua-2022-energy",
+        "central-bank-path",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmi-wfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmif0fvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmimgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmihgfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-中国政策-googlenews-https-news-google-com-rss-articles-cbmi-afbvv95c",
+        "news-国际局势-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmirgfbvv95c",
+        "news-中国政策-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-中国政策-googlenews-https-news-google-com-rss-articles-cbmihajbvv95c",
+        "news-中国政策-googlenews-https-news-google-com-rss-articles-cbmi9wfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmi5wfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmia0fvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmizwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmilafbvv95c",
+        "news-国际局势-googlenews-https-news-google-com-rss-articles-cbmikafbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivkfvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-政治-googlenews-https-news-google-com-rss-articles-cbmi4wfbvv95c",
+        "news-政治-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmizwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmikgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiakfvx3lxt",
+        "intel-ru-ua-market",
+        "news-googlenews-https-news-google-com-rss-articles-cbmioafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmixkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmipajbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi8gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmisafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmijafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-中国政策-googlenews-https-news-google-com-rss-articles-cbmiowfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiwkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmidkfvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmijwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmieefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:50:41.591Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:50:41.589Z",
+        "recentCount": 44,
+        "historyCount": 16,
+        "verdict": "全球投资市场正处于地缘政治紧张与科技创新驱动的双重影响下，风险偏好分化明显，需重点关注科技板块估值泡沫与地缘冲突带来的供应链及能源价格波动。",
+        "clusters": [
+          {
+            "theme": "地缘政治与能源风险",
+            "gist": "美伊局势紧张、俄乌冲突持续及欧美制裁加剧，导致能源价格波动和供应链风险上升，避险资产需求增加。"
+          },
+          {
+            "theme": "科技创新与估值分化",
+            "gist": "科技股高市净率引发泡沫担忧，但人工智能和金融科技创新推动部分板块获得定价权，市场风险偏好呈现分化。"
+          },
+          {
+            "theme": "主要央行政策分化",
+            "gist": "通胀韧性和就业数据导致主要央行利率路径分化，市场重新定价降息节奏，汇率波动加剧，影响跨境资本流动。"
+          },
+          {
+            "theme": "大型企业资本布局",
+            "gist": "亚马逊等巨头加大海外投资，尤其在英国布局数据中心和物流，显示全球资本向数字基础设施和供应链升级转移。"
+          }
+        ],
+        "trend": "近期地缘政治紧张与科技创新推动市场波动加剧，较历史阶段风险更为集中且多元，市场结构性分化趋势明显升级。",
+        "foresight": [
+          "接下来大概率地缘政治冲突将持续加剧能源及航运成本波动，推动避险资产和相关板块表现。",
+          "人工智能及金融科技创新将驱动部分科技股估值持续分化，市场对高估值板块的泡沫担忧将加剧。",
+          "主要央行政策路径分化将导致汇率和资本流动波动加剧，跨境投资风险管理难度提升。"
+        ],
+        "entryExit": [
+          "当前偏多科技创新驱动的优质科技股，因其具备定价权和成长潜力，但需警惕估值泡沫风险。",
+          "偏空传统能源及受地缘政治影响较大的行业，因供应链和成本压力短期承压。",
+          "出现地缘政治缓和或主要央行统一宽松信号时，可考虑切入受益板块；若冲突升级或通胀失控则应退出高风险资产。"
+        ],
+        "cognitiveCheck": [
+          "新信息印证了地缘政治风险对能源和供应链的持续冲击，需调整对相关行业风险评估。",
+          "科技股估值泡沫风险被进一步强化，需微调对高估值板块的风险容忍度。",
+          "央行政策分化导致的汇率波动风险被放大，需更新跨境资本流动的风险管理框架。"
+        ],
+        "conclusion": "判断当前全球投资市场处于高波动、高分化阶段，倾向于精选科技创新板块布局，同时保持对地缘政治和政策风险的动态防范，避免盲目追高高估值资产。",
+        "mermaid": "flowchart LR\n  A[地缘政治紧张] -->|推升| B[能源价格波动]\n  B -->|影响| C[供应链风险]\n  C -->|加剧| D[避险资产需求]\n  A -->|加剧| E[市场波动]\n  F[科技创新] -->|驱动| G[科技股估值分化]\n  G -->|引发| H[泡沫担忧]\n  E -->|影响| H\n  I[央行政策分化] -->|导致| J[汇率波动]\n  J -->|影响| K[跨境资本流动]\n  F -->|吸引| L[大型企业投资]\n  L -->|布局| M[数字基础设施]"
+      }
+    },
+    {
+      "id": "topic-美国科技-mqj9fnt0",
+      "title": "美国科技",
+      "slug": "美国科技",
+      "aliases": [],
+      "query": "美国科技",
+      "status": "active",
+      "createdAt": "2026-06-18T08:50:55.428Z",
+      "updatedAt": "2026-06-22T02:30:15.148Z",
+      "signalRefs": [
+        "chip-export",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmi-wfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmivkfvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmi1wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmipajbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiywfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiwafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiogfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmiqwfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmitafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiyefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmidefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiw0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmigwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmif0fvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmicefvx3lxt",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmixwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmiiwfbvv95c",
+        "news-ai-googlenews-https-news-google-com-rss-articles-cbmivwfbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmihafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmidkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmirafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmibkfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi3gfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmifefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmitgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi0afbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihgjbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmixgfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmigafbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmipgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiekfvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmi5wfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmihwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmivgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmie0fvx3lxt",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmisafbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmi7gfbvv95c",
+        "news-科技-googlenews-https-news-google-com-rss-articles-cbmi3afbvv95c",
+        "news-金融-googlenews-https-news-google-com-rss-articles-cbmiowfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmijwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiqgfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbminafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiowfbvv95c",
+        "功能测试-科技主题",
+        "测试类目检索",
+        "news-googlenews-https-news-google-com-rss-articles-cbmibefvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiiafbvv95c",
+        "美国科技",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiigfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbminwfbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiuafbvv95c",
+        "news-googlenews-https-news-google-com-rss-articles-cbmiy0fvx3lxt",
+        "news-googlenews-https-news-google-com-rss-articles-cbmimgfbvv95c"
+      ],
+      "pinnedSignalIds": [],
+      "knowledge": {
+        "takeaways": [],
+        "reasoning": [],
+        "decisions": []
+      },
+      "lastReviewedAt": "2026-06-22T02:30:15.148Z",
+      "briefing": {
+        "available": true,
+        "generatedAt": "2026-06-22T02:30:15.146Z",
+        "recentCount": 54,
+        "historyCount": 4,
+        "verdict": "美国科技领域正处于高风险与高回报并存的关键阶段，AI芯片出口管制与资金流动成为核心变量。",
+        "clusters": [
+          {
+            "theme": "资金流动与市场风险偏好",
+            "gist": "近期美股科技板块资金流入创纪录，受地缘政治与外汇波动影响，科技股高估值泡沫风险加剧。"
+          },
+          {
+            "theme": "AI芯片与算力供应链管制",
+            "gist": "美国对AI芯片及算力出口限制升级，重塑全球供应链，影响相关厂商订单与技术布局。"
+          },
+          {
+            "theme": "国防与AI技术融合",
+            "gist": "美国国防部加大AI超级计算投入，推动军用AI技术现代化，强化军民融合态势明显。"
+          },
+          {
+            "theme": "人工智能技术发展与市场竞争",
+            "gist": "AI大模型市场份额波动，部分企业受出口禁令影响，行业创新与监管博弈加剧。"
+          }
+        ],
+        "trend": "相比历史，美国科技领域从单纯技术创新转向技术与地缘政治、资本市场高度交织，管制与投资双重驱动态势升级。",
+        "foresight": [
+          "接下来大概率会看到AI芯片出口管制政策进一步细化，导致供应链区域化趋势明显。",
+          "美国科技股资金流入短期内仍将保持高位，但估值泡沫风险可能引发阶段性调整。",
+          "国防部对AI超级计算的巨额投入将推动军用AI技术快速落地，带动相关产业链扩张。"
+        ],
+        "entryExit": [
+          "现在偏多，理由是科技板块资金流入强劲且国防AI投入加码，短期内创新驱动仍具吸引力。",
+          "出现AI芯片出口管制升级导致供应链严重断裂时应谨慎切入，出现科技股估值大幅回调时考虑逢低布局。"
+        ],
+        "cognitiveCheck": [
+          "我替你确立的初始判断：美国科技创新与地缘政治风险高度绑定，资本市场波动加剧。",
+          "新信息印证了国防部持续加大AI超级计算投资的战略方向。",
+          "AI芯片出口管制升级挑战了此前对全球供应链稳定性的乐观预期，需调整风险评估。"
+        ],
+        "conclusion": "判断是美国科技领域短期内受资本市场热情与出口管制政策双重影响，创新动力强劲但风险显著，建议积极把握技术与国防融合带来的投资机会，同时警惕供应链与估值风险。",
+        "mermaid": "flowchart TD\n  A[美国科技资金流入] -->|推动| B[科技股估值高企]\n  B -->|风险| C[估值泡沫隐忧]\n  A -->|受地缘政治影响| D[外汇与市场波动]\n  E[AI芯片出口管制] -->|重塑| F[算力供应链]\n  F -->|影响| G[相关厂商订单]\n  H[国防部AI超级计算投入] -->|推动| I[军用AI技术发展]\n  I -->|带动| G"
+      }
+    }
+  ],
+  "updatedAt": "2026-06-22T02:50:41.591Z"
+}
